@@ -1,5 +1,7 @@
 from discord.ext import commands
 
+from dragonbot.lib.dragon import DragonCode
+
 
 class CodeCog(commands.Cog):
     def __init__(self, bot):
@@ -7,7 +9,12 @@ class CodeCog(commands.Cog):
 
     @commands.command()
     async def dc(self, ctx, *, message: str):
-        await ctx.send(f"DragonCode {message}")
+        try:
+            dragon = DragonCode.parse(message)
+        except Exception as e:
+            await ctx.send(f":warning: {e}")
+
+        await ctx.send(f"DragonCode {dragon}")
 
 
 def setup(bot):
