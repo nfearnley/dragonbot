@@ -1,0 +1,793 @@
+The Revised Dragon Code V2.5
+
+What is the Dragon Code?
+  The Dragon Code is a short form way for those in the Dragon community to describe exactly what they are. It is used primarilly in Usenet post or e-mail signatures to reduce the amount of text one would need for a proper description.
+  The code itself consists of a number of 'tags' that represent various characteristics. These tags start with a symbol that indicates what the tag represents, and are followed by other symbols that indicate the strength of (or otherwise modify) that characteristic. The most common modifiers are the + and - symbols, the number of which determines how strong (or weak) that characteristic is.
+  You can easily identify the Dragon Code from all the other codes that are present because it always starts with the letters DC. Because the Original Dragon Code started with DC and this revised code is somewhat different (and not compatible with the old code), all Revised Dragon Codes should start DC2.
+  The Revised Dragon Code's tags are presented in an arbitrary order below, however you may put them in your code in any order you wish (though keeping them in the order they are presented helps others to decode them). You do not even have to include all of the tags - none of the tags are mandatory including the Species tag. When presenting your own Dragon Code you may want to put spaces between the tags to aid others in reading it, but this is not mandatory either as you can omit spaces if there is not enough room; the only time a space is required is when you omit your Species in which case a space is required after the initial DC2. .
+  Still confused? Well scroll down and have a read through the tags. You'll soon get the hang of it!
+
+The Tags:
+  Central to the whole code are the various tags. When you are first presented with a Dragon Code, it can be quite daunting to decode (especially when the tags are in a strange order). However with a bit of practice you should soon be able to get the hang of it. Of course no one is expected to know the whole code off by heart, or even to be able to decode the more complicated codes, but there are various programs around that allow you to construct your own code and decode others.
+  To date, there are tags that describe almost every aspect of Draconity, both in real and virtual life. Of course there will be many areas that will not be represented here, and in these cases you are free to include "free text" in any part of the code. The only requirement is that you put "double quotes" around any text to distinguish them from other tags.
+  Common to all the tags are two modifiers, ? and ~. The ? modifier indicates that you are unsure or do not know what you are - this is often different from omitting the tag as that can indicate that you don't have that characteristic. The ~ modifier indicates that you do not have a fixed value for the tag, or that you vary. Some of the tags will have these modifiers described, but whether they are or not, they apply to all.
+  The Dragon Code tags are case sensitive. All the initial tag letters must be in upper case whereas any modifying letters are in lower case. This is to prevent tags being confused.
+  There are those who want to represent differences between their virtual lives (on the Internet) and their real lives. The original Dragon Code allowed this for specific codes, but that was felt to be too limiting especially as many are a different species in real life to virtual life. It is now recommended that you have a different code for each life you lead.
+  Lastly, please treat the Dragon Code with an open mind and as nothing more than a bit of fun. If you are not represented here it is purely because it is not possible to think of every possible species or characteristic. That said, you can always e-mail your suggestions to Wyrm <wyrm@dragoncode.org> who promises not to eat them!
+
+
+Species (DC2.*)
+  Your species follows directly after the initial DC2. identifier. As with all the tags it is not mandatory, however if you do decide to omit your species then you must put a space instead.
+  This tag is hierarchical in that the first symbol represents a large group, the next symbol a sub-group of that, and so on. Generally one would only need two symbols to describe your species fully.
+  If your species is not listed, you can write it out long-hand in "double quotes". If your group already exists, put that first and follow it with the species in "double quotes".
+  The following list shows all of the species available.
+
+  D        Dragons - DC2.D indicates 'I am a Dragon! I will not be bothered by humanity's petty attempts to subdivide our race.'
+    a      Amphiteres - DC2.Da
+    c      Draconids - DC2.Dc
+    d      Dragonettes - DC2.Dd
+    e      Eastern Dragons - DC2.De
+    f      Faerie Dragons - DC2.Df
+    h      Hydra - DC2.Dh
+    i      Dimar - DC2.Di
+    l      Dracolich - DC2.Dl
+    p      Pernese Dragons - DC2.Dp
+    r      Turtle Dragons - DC2.Dr
+    s      Serpents - DC2.Ds
+      s    Sea Serpents - DC2.Dss
+      f    Fire Serpents - DC2.Dsf
+    t      Tarrasques - DC2.Dt
+    u      Pseudodragons - DC2.Du
+    v      Wyverns - DC2.Dv
+    w      Western Dragons - DC2.Dw
+    y      Wyrms - DC2.Dy
+
+  H        Humanoids - DC2.H indicates 'I am a Human! Need I say any more?'
+    a      Apes - DC2.Ha
+    d      Dwarves - DC2.Hd
+    e      Elves - DC2.He
+      w    Wood Elves - DC2.Hew
+    f      Fairies - DC2.Hf
+    i      Giants - DC2.Hi
+    g      Gnomes - DC2.Hg
+    h      Hobbits - DC2.Hh
+    k      Kender - DC2.Hk
+    y      Nymphs - DC2.Hy
+    t      Troll - DC2.Ht
+    w      Wolfman - DC2.Hw
+    ?      Unknown (Anthropomorphic) - DC2.H?
+  For those who are humanoid versions of other creatures, put an H^ before the creature's code. E.g. DC2.H^Dw is a humanoid which resembles a Western Dragon.
+
+  A        Amphibians - DC2.A indicates 'I am an Amphibian, and that's all you need to know!'
+    f      Frogs - DC2.Af
+    n      Newts - DC2.An
+    s      Salamanders - DC2.As
+    t      Toads - DC2.At
+
+  B        Birds - DC2.B indicates 'You can try to categorise me, but I'm just a bird!'
+    c      Crows - DC2.Bc
+    e      Eagles - DC2.Be
+    h      Hawks - DC2.Bh
+    p      Phoenix - DC2.Bp
+    r      Ravens - DC2.Br
+
+  C        Crustaceans - DC2.C indicates 'I have a shell, but you'll need x-ray vision to see past it!'
+    c      Crabs - DC2.Cc
+    l      Lobsters - DC2.Cl
+    s      Shrimps - DC2.Cs
+
+  S        Dinosaurs - DC2.S indicates 'Look at my teeth ... does it matter what I am?!'
+    a      Allosaurs - DC2.Sa
+    c      Triceratops - DC2.Sc
+    p      Apatosaurs - DC2.Sp
+    s      Stegosaurs - DC2.Ss
+    t      Tyrannosaurs - DC2.St
+    v      Velociraptors - DC2.Sv
+
+  E        Extraterrestrial - DC2.E indicates 'I don't exist on this planet.'
+    d      Daleks - DC2.Ed
+    t      Tribbles - DC2.Et
+
+  F        Fish - DC2.F indicates 'I breath water, that should tell you all.'
+    h      Sea horses - DC2.Fh
+    f      Freshwater fish - DC2.Ff
+      g    Goldfish - DC2.Ffg
+      t    Trout - DC2.Fft
+    s      Sharks - DC2.Fs
+
+  I        Insects - DC2.I indicates 'Six legs, a thorax, head, and abdomen. I also buzz a lot!'
+    a      Ants - DC2.Ia
+    b      Beetles - DC2.Ib
+    f      Flies - DC2.If
+    l      Locusts - DC2.Il
+    m      Moths - DC2.Im
+    u      Butterflies - DC2.Iu
+
+  L        Legendary - DC2.L indicates 'My name has mythical significance ... what do you mean you've never heard of me!'
+    r      Gargoyles - DC2.Lr
+    l      Gremlins - DC2.Ll
+    g      Griffins or Gryphons - DC2.Lg
+    n      Manticores - DC2.Ln
+    m      Mermaids and Mermen - DC2.Lm
+    f      Salamanders - DC2.Lf - not the Amphibian type.
+    s      Sprites - DC2.Ls
+    t      Treants and Treefolk - DC2.Lt
+    u      Unicorns - DC2.Lu
+
+  M        Mammals - DC2.M indicates 'I give birth to live young ... and what a strain it is too!'
+    a      Bats (and other avian like mammals) - DC2.Ma
+    b      Bears - DC2.Mb
+    c      Canines (dogs) - DC2.Mc
+      d    Domestic dogs - DC2.Mcd
+      f    Foxes - DC2.Mcf
+      w    Wolves - DC2.Mcw
+    f      Felines (cats) - DC2.Mf
+      b    Black panthers - DC2.Mfb
+      c    Cheetahs - DC2.Mfc
+      d    Domestic cats - DC2.Mfd
+      p    Leopard - DC2.Mfp
+        s  Snow Leopard - DC2.Mfps
+      l    Lions - DC2.Mfl
+      x    Lynxs - DC2.Mfx
+      a    Panthers - DC2.Mfa
+      u    Pumas - DC2.Mfu
+      t    Tigers - DC2.Mft
+    h      Horses - DC2.Mh
+    m      Monkeys - DC2.Mm
+      g    Gibbons - DC2.Mmg
+    p      Polecats - DC2.Mp
+      f    Ferrets - DC2.Mpf
+      m    Mink - DC2.Mpm
+    r      Rodents - DC2.Mr
+      g    Gerbils - DC2.Mrg
+      h    Hamsters - DC2.Mrh
+      m    Mice - DC2.Mrm
+      r    Rats - DC2.Mrr
+      s    Squirrels - DC2.Mrs
+    w      Cetaceans (whales) - DC2.Mw
+      d    Dolphins - DC2.Mwd
+      k    Killer Whales - DC2.Mwk
+      p    Porpoises - DC2.Mwp
+
+  O        Molluscs - DC2.O indicates 'I keep my house with me ... I rarely need to move!'
+    c      Cuttlefish - DC2.Oc
+    l      Limpets - DC2.Ol
+    o      Octopuses - DC2.Oo
+    y      Oysters - DC2.Oy
+    s      Snails - DC2.Os
+
+  Y        Mythical - DC2.Y indicates 'My name is legendary ... what do you mean you've never heard of me!'
+    c      Centaurs - DC2.Yc
+    y      Cyclopses - DC2.Yy
+    g      Golems - DC2.Yg
+    h      Hellhounds - DC2.Yh
+    m      Minotaurs - DC2.Ym
+    p      Pegasi - DC2.Yp
+    t      Satyrs - DC2.Yt
+    s      Sphinxes or Sphynxes - DC2.Ys
+
+  P        Plants - DC2.P indicates 'I'm rooted to the spot, in more ways than one!'
+    c      Cacti - DC2.Pc
+    f      Fungii - DC2.Pf
+    t      Trees - DC2.Pt
+      a    Ash trees - DC2.Pta
+      e    Elm trees - DC2.Pte
+      o    Oak trees - DC2.Pto
+
+  R        Reptiles - DC2.R indicates 'Cold blooded and scaly, or so you might think!'
+    a      Alligators and Crocodiles - DC2.Ra
+    c      Chameleons - DC2.Rc
+    g      Geckos - DC2.Rg
+    k      Komodo Dragons - DC2.Rk
+    l      Lizards - DC2.Rl
+    n      Skinks - DC2.Rn
+      f    Fire Skinks - DC2.Rnf
+    s      Snakes - DC2.Rs
+    t      Turtles - DC2.Rt
+
+  Q        Spirits - DC2.Q indicates 'I really DO go bump in the night!'
+    a      Angels - DC2.Qa
+    d      Devils and Demons - DC2.Qd
+    g      Ghosts - DC2.Qg
+    i      Imps - DC2.Qi
+    p      Poltergeists - DC2.Qp
+    s      Spectres - DC2.Qs
+    w      Will-o-the-wisps - DC2.Qw
+
+  U        Undead - DC2.U indicates 'I died, but I haven't stopped moving yet!'
+    g      Ghouls - DC2.Ug
+    v      Vampires - DC2.Uv
+    z      Zombies - DC2.Uz
+
+  ~        Shapechangers - DC2.~ indicates 'Try to describe me and I'll change shape again!'
+           Shapechangers who change between distinct types can include those types after the ~ using a / to seperate the species. E.g. DC2.~Dw/H would indicate 'I change between a Western Dragon and Human form.'
+           It's also quite likely that your distinct forms have differring characteristics as well as similar ones. These can be given directly after the species tag using {} to contain the species specific tags. E.g. DC2.~Dw{Gf}/H{Gm}A would indicate 'I have a Western Dragon form that is female and a Human form that is male, but both are mature adults.'
+           If you have a single stable form or a preferred form, you can indicate this by simply specifying that form before the ~, for example DC2.De~ would indicate 'I am an Eastern Dragon who changes shape occasionally.' This is subtely different from DC2.~De which is 'I am a shapechanger who takes the form of an Eastern Dragon.'
+
+  Miscellaneous (modifiers):
+    ?      Unknown - DC2.? indicates 'I have no idea what I am!' One can also use ? after a Group (or sub-group) to indicate that you are uncertain as to what part of the group you are, e.g. DC2.R? would indicate 'I am a reptile, but I'm not sure which!'
+    ^      Shaped - This is used to indicate that you are mainly one form with features of another. For example DC2.H^Dw indicates 'I am Humanoid with Western Dragon features!'
+    [ ]    In another form - This is used when you are really one type of species, but on the outside you look like another. For example DC2.D[H] indicates 'I am a Dragon, trapped in Human form!'
+           As for shapechangers, you can specify different tags for each species using {} to contain the species specific tags. E.g. DC2.~Dw{Gf}[H{Gm}] would indicate 'I am a female Western Dragon trapped in a male Human body.'
+    +      Crossed - DC2.D+H indicates 'A Dragon mated with a Human ... and I'm the result!'
+           If you have a cross between species in the same group, you can leave out the second group, for example DC2.Dw+p indicates 'I am a cross between a western and a pernese dragon.'
+           You can also have more than two species crossed by adding on more plusses!
+
+
+Gender (G*)
+  One's Gender is something that can influence how others treat you. However there's more to it than just one's physical appearance.
+    Gf      Female
+    Gh      Hermaphrodite
+    Gm      Male
+    Gn      Neuter
+    Gp      Pseudo-hermaphrodite (One who has some characteristics of both male and female, but is not fully hermaphrodite, e.g. feminising testicular syndrome).
+    G~      Variable between two or more. If you want to specify the various genders, include them in parenthesis after the ~, for example G~(fm) indicates 'I vary between female and male.'
+    G?      Unknown - 'No dice! Cartoon characters aren't anatomically correct!'
+  Modifiers:
+    >       In transition between two types. You should indicate what you are changing from and to either side of the >. For example Gm>n indicates 'I am a male who is changing to a neuter.'
+    " "     If you have a different gender, you can put it after the G in "double quotes". For example G"sex".
+    /       There are those who want to specify a different mental gender to their physical, in this case you use / to seperate the two with the mental gender going second. For example Gm/f indicates 'I am a female stuck in a male body.'
+
+
+Length (L*)
+  Given that there is a collosal variation in size between Dragons, Dragon Friends, and other Species, it is important to know just what you're pounce-tackling or snuggle-hugging! You don't want to be accidentally squished after all!
+  There are two methods of specifying ones length, an order of magnitude and an exact measure. You are free to choose whichever you feel is best for you.
+    L+++!        Celestial - 'I hate it when planets get in my mouth when I yawn!'
+    L+++         Mistaken for mountain ranges - 'Sorry Mr Battleship, I didn't see you!'
+    L++          Can't see own tail on a foggy day - 'Can you say "jungle gym"?'
+    L+           Godzilla-sized - 'They look up to me. Literally.'
+    L            Draco-sized - 'About as normal as dragons get.'
+    L-           Human-sized - 'Please, don't step on the tail...'
+    L--          Dog-sized - 'Please, don't step on me...'
+    L---         Pocket Dragon-sized or below - 'Please, don't sneeze...'
+    L---!        Microscopic - 'Honey, I shrunk the dragon!'
+    L~           Variable - 'I change size on a whim!'
+    L^           One-Dragon-Sized - 'I am just long enough to reach the ground!'
+  Quantitative method:
+    L<number>i   You are about that number of inches long (1 inch = 2.54 centimetres). For example L480f indicates 'I am about 480 inches long.'
+    L<number>f   You are about that number of feet long (1 foot = 30.5 centimetres). For example L40f indicates 'I am about 40 feet long.'
+    L<number>y   You are about that number of yards long (1 yard = 0.914 metres). For example L13f indicates 'I am about 13 yards long.'
+    L<number>c   You are about that number of centimetres long (1 centimetre = 0.393 inches). For example L1220c indicates 'I am about 1220 centimetres long.'
+    L<number>m   You are about that number of metres long (1 metre = 3.28 feet). For example L12m indicates 'I am about 12 metres long.'
+    L<number>k   You are about that number of kilometres long (1 kilometre = 0.621 miles). For example L0.01k indicates 'I am about a hundredth of a kilometre long.'
+  Measurements are nose to tail for quadrupeds, snakes, serpents, etc; and are full standing height for bipeds (and others that stand upright). If you are not sure how to measure yourself, take the length from nose to tail tip.
+  If you want to be more specific as to your dimensions, you can specify your tail, neck and head, and legs/arms length using these modifiers (which use the same unit of measure as the main length):
+  Modifiers:
+    <number>a    Put after the length, this specifies your 'arm' length (primarilly for bipeds). For example L6f2a indicates 'I am 6 foot tall with arms that are 2 feet long each.'
+    <number>l    Put after the length, this specified your 'leg' length. For example L30c5l indicates 'I am 30 centimetres long with 5 centimetre long legs.'
+    <number>n    Put after the length, this specifies your 'neck and head' length. For example L1k0.2n indicates 'I am a kilometre in length with a neck and head that are 300 metres in length.'
+    <number>t    Put after the length, this specifies your 'tail' length. For example L6i2t indicates 'I am 6 inches long with a 2 inch long tail.'
+    <number>w    Put after the length, this specifies your 'wingspan' (wing-tip to wing-tip). For example L3i6w indicates 'I am 3 inches tall with a 6 inch wingspan.'
+  You can also combine modifiers, for example L10m4t1l indicates 'I am 10 metres long with a 4 metre long tail and 1 metre long legs.'
+  For plants, treat the body as the trunk or stem, legs as roots, arms as branches, wings as leaves, and the neck and head as the flower and its stem.
+
+
+Width (W*)
+  There comes a time in a human's life when they stop growing vertically and start to grow horizontally! Well, so do Dragons! This tag is a measure of your spread, or lack of it.
+    W+++!   'I am Athelind! My belly is now several galaxies wide ... while I'm only a few hundred feet long!'
+    W+++    'Planets have been known to crack in half with my arrival!'
+    W++     'My digestion of food has been known to cause earthquakes.'
+    W+      'I move by rolling. Flying has always been an effort for me.'
+    W       'What can I say ... I'm normal, except for a few feasts here or there.'
+    W-      'I'm slightly on the slim side!'
+    W--     'Ever heard of serpentine?'
+    W---    'Whoah! Whaddaya mean I look like a long string with wings?'
+    W---!   'I'm one-dimensional - all length and no width or depth. Just one long super-string!'
+    W~      Variable - 'My girth depends on what I've just eaten!'
+
+
+Weight (Tonnage) (T*)
+  As well as knowing the dimensions of another Dragon, it is also important to know it's weight too. Especially if one intends on having it sit on one's lap!
+  There are two methods of specifying ones weight, an order of magnitude and an exact measure. You are free to choose whichever you feel is best for you.
+    T+++!        Black-Hole - 'Everything gravitates towards me eventually!'
+    T+++         Massive - 'I've been eating rocks again!'
+    T++          Obese - 'I'm on a sea-food diet ... I see food and eat it!'
+    T+           Over-weight - 'I've been eating too many doughnuts again!'
+    T            Normal - 'I'm as normal a weight as one gets.'
+    T-           Under-weight - 'I've not had a good meal for ages!'
+    T--          Buoyant - 'I've been breathing helium again!'
+    T---         Feather-weight - 'I get blown about by the wind.'
+    T---!        Weightless - 'I'm made out of gossamer.'
+  Quantitative method:
+    T<number>c   You weigh about that number of long hundredweight avoirdupois (1 cwt = 50.8 kilogrammes or 8 stone / 112 pounds). For example T16c indicates 'I am about 16 hundredweight.'
+    T<number>g   You weigh about that number of grammes (1 gramme = 0.0353 ounces). For example T800000g indicates 'I am about 800000 grammes.'
+    T<number>k   You weigh about that number of kilogrammes (1 kilogramme = 2.205 pounds). For example T800k indicates 'I am about 800 kilogrammes.'
+    T<number>l   You weigh about that number of pounds avoirdupois (1 pound = 0.4536 kilogrammes or 16 ounces). For example T1800l indicates 'I am about 1800 pounds.'
+    T<number>o   You weigh about that number of ounces avoirdupois (1 ounce = 28.35 grammes). For example T28700o indicates 'I am about 28700 ounces.'
+    T<number>s   You weigh about that number of stones avoirdupois (1 stone = 6.35 kilogrammes or 14 pounds). For example T128s indicates 'I am about 128 stones.'
+    T<number>t   You weigh about that number of tons avoirdupois or metric tonnes (1 ton = 1016 kilogrammes or 2240 pounds, 1 tonne = 2205 pounds or 1000 kilogrammes). It's up to you which one you mean! For example T0.8t indicates 'I am about 0.8 tons.'
+
+
+Appendages (P*)
+  This tag describes the numbers of limbs and other appendages on your body. If you have the 'obvious' numbers of limbs for a creature of your species you can skip this tag... but then what's normal?!?!
+    Pa         A pair of arms
+    Pf         A pair of fore-limbs (e.g. limbs that can be used as both arms and legs).
+    Ph         A head. Yes! There are creatures with more than one!
+    Pk         A crest. Normally on ones head, but you never know!
+    Pl         A pair of legs.
+    Pp         A pair of paddles, flukes, or fins.
+    Pt         A tail. Again, some creatures do have more than one!
+    Pv         A pair of horns or spines on the head.
+    Pw         A pair of wings.
+    Pw'        A pair of wings that also act as arms, legs, or fore-limbs.
+  Modifiers:
+    ^          Appendage ends in a webbed hand or foot. For example Pl^ indicates 'Don't call me a frog!'
+    +          One more than normal. For example Ph+ indicates 'I got ahead in advertising!'
+    -          One less than normal. For example Pw- indicates 'I have only one wing!'
+    !          I have many of these. For example Pl! indicates 'I am a millipede!'
+    <number>   I have this many of these. For example Pl3l- indicates 'I am an octopus with a missing leg!'
+    ~          Variable. For example Pl~ indicates 'I grow legs when I feel the need for them!'
+  You can combine the above options together in any you want. For example Phwlwllt indicates that you have a head, a pair of wings, a pair of legs, a pair of wings, then two pairs of legs, and a tail.
+  You can also miss out any options that are obvious for your species - most sensible creatures have only one head and a tail!
+
+
+Skin-Type (Sk*)
+  What one feels like to the touch is something which can often be nice to know. You can let others know what they're in for by using this tag. If your skin type is what would be considered usual for your species you don't have to use this tag, but what is usual for dragons?
+    Skb        Bark.
+    Skc        Cellulose.
+    Ske        Exoskeleton (shells, Calcium Carbonate).
+    Skf        Feathers.
+    Skh        Hide.
+    Skk        Skin.
+    Skl        Leather.
+    Skm        Metal.
+    Skr        Rock (Stone).
+    Sks        Scales.
+    Sku        Fur.
+    Skx        Crystals.
+    Sk         None (just bones).
+  Body parts:
+    ,a<type>   Arms. Sks,ak is 'My body is scaly, but I have skin on my arms.'
+    ,b<type>   Belly. Sks,bm is 'My body is scaly, but I have a metal underside.'
+    ,h<type>   Head. Sku,hf is 'My body is furry, and I have a head of feathers.'
+    ,l<type>   Legs. Skr,lh is 'My body is rocky, and I have legs of hide.'
+    ,n<type>   Neck. Skb,nc is 'My body (trunk) has bark, but my neck (flower stem) is cellulose.'
+    ,t<type>   Tail. Sks,th is 'My body is scaly, but my tail has hide.'
+    ,w<type>   Wings. Sks,wl is 'My body is scaly, and I have leathery wings.'
+  For plants, treat the body as the trunk or stem, legs as roots, arms as branches, wings as leaves, neck as flower stem, and head as the flower.
+
+
+Colouration (C*)
+  Ones colour can be very important to some, especially dragons. This tag has been expanded and revolutionised from the original Colour tag such that you can now specify the colour of almost every part of your body!
+    Cag         Silver (Argent)
+    Cam         Amber
+    Caq         Aquamarine
+    Cau         Gold (Aurum)
+    Cbk         Black
+    Cbl         Blue
+    Cbr         Brown
+    Cbs         Brass
+    Cbz         Bronze
+    Cch         Chromium
+    Ccu         Copper (Cuprum)
+    Ccy         Cyan
+    Ceb         Ebony
+    Cfs         Flesh (Human)
+    Cgr         Green
+    Cgy         Grey
+    Chg         Mercury / Quicksilver (Hydrargyrum)
+    Cin         Indigo
+    Civ         Ivory
+    Cja         Jade
+    Cma         Magenta
+    Cmv         Mauve
+    Cor         Orange
+    Cpi         Pink
+    Cpu         Purple
+    Crb         Rainbow (violet, indigo, blue, green, yellow, orange, red).
+    Cre         Red
+    Cta         Tan
+    Ctu         Turquoise
+    Cmb         Umber
+    Cvi         Violet
+    Cwh         White
+    Cye         Yellow
+    C~          Chameleonic. 'I can be whatever colour I want to.'
+    C?          Unknown. 'Either I don't know what colour I am, or I'm just not saying!.'
+    C           Colourless (ice, crystal, or invisible creatures).
+  Modifiers:
+    +           Put after the colour, this indicates 'light'. The more the plusses, the lighter the colour. For example, Cbl+ is Light Blue.
+    -           Put after the colour, this indicates 'dark'. The more the minuses, the lighter the colour.  For example, Cbl- is Dark Blue.
+    ^           Put after the colour, this indicates 'metallic'. For example, Cbl^ is Metallic Blue.
+    _           Put after the colour, this indicates 'transparent' or 'gemstone'. For example, Cbl_ is Transparent Blue, Blue glass, or Sapphire.
+    '           Put after the colour, this indicates 'fiery' or 'luminescent'. For example, Cbl' is Blue flame, or luminous Blue.
+    %           Put after the colour, this indicates 'pearlescent' (having the look of mother of pearl). For example, Cbl% is pearlescent Blue.
+    !           Put after the colour, this indicates 'glittery' or 'sparkly'. For example, Cbl! is glittery Blue.
+  Further Modifiers:
+    |<colour>   Put after the colour and any modifiers, this indicates 'stripes'. For example, Cbl+|au is 'light blue with gold stripes.'
+    =<colour>   Put after the colour and any modifiers, this indicates 'bands'. For example, Cbl+=au is 'light blue with gold bands.'
+    :<colour>   Put after the colour and any modifiers, this indicates 'spots'. For example, Cbl+:au is 'light blue with gold spots.'
+    *<colour>   Put after the colour and any modifiers, this indicates 'stars'. For example, Cbl+*au is 'light blue with gold stars.'
+    @<colour>   Put after the colour and any modifiers, this indicates 'mottled'. For example, Cbl+@au is 'light blue mottled with gold.'
+    \<colour>   Put after the colour and any modifiers, this indicates 'iridescence', i.e. another colour that shows under a different light or viewing angle. For example, Cbl+\au is 'light blue with gold iridescence.'
+    /<colour>   Mix. This goes after a colour part to indicate that one is a random mix of several colours. For example Cpu/ye/wh indicates 'I have areas of purple, yellow, and white!'
+    #<colour>   Put after the colour, this indicates 'plaid'. The first colour is the main colour of the plaid with the following colours the overlays. For example, Cre#bl#bk is Red Plaid with Blue and Black.
+    &<colour>   Put after the colour, this indicates 'patterned'. The first colour is the main colour with the following colours the overlays of the pattern. For example, Cgy&re&in+ is Grey patterned with Red and light Indigo.
+    &1<colour>  Put after the colour, this indicates 'marble patterned'. The first colour is the main colour with the following colours the veins of the marble pattern. For example, Cre&1re-&pu is Red marble with Dark Red and Purple veins. Lovely!
+    ><colour>   In transition. For those who are changing from one colour to another. For example, Cau>ag is 'gold changing to silver.'
+  Body parts:
+    ,a<colour>  Arms. Cbl,apu is 'Blue with Purple arms.'
+    ,b<colour>  Belly or Underside. Cbl,bpu is 'Blue with a Purple belly.'
+    ,c<colour>  Claws/Feet/Hands. Cbl,cpu is 'Blue with Purple claws.'
+    ,e<colour>  Eyes. Cbl,epu is 'Blue with Purple eyes.'
+    ,f<colour>  Fur/Hair. Cbl,fpu is 'Blue with Purple fur.'
+    ,h<colour>  Head. Cbl,hpu is 'Blue with a Purple head.'
+    ,k<colour>  Crest. Cbl,kpu is 'Blue with a Purple crest.'
+    ,l<colour>  Legs. Cbl,lpu is 'Blue with Purple legs.'
+    ,n<colour>  Neck. Cbl,npu is 'Blue with a Purple neck.'
+    ,p<colour>  Points. Cbl,ppu is 'Blue with Purple points or highlights.'
+    ,s<colour>  Spines. Cbl,spu is 'Blue with Purple spines.'
+    ,t<colour>  Tail. Cbl,tpu is 'Blue with a Purple tail.'
+    ,u<colour>  Aura. Cbl,upu is 'Blue with a Purple aura.'
+    ,v<colour>  Horns/Spines. Cbl,vpu is 'Blue with Purple horns.'
+    ,w<colour>  Wings. Cbl,wpu is 'Blue with Purple wings.'
+  You can combine the above modifiers and body parts to make a complicated colour tag if required. For example Cre-/br,bbl+,wor_,pye,eau indicates 'I am a mix of dark red and brown with a light blue belly, transparent orange wings, yellow points, and golden eyes.'
+  For plants, treat the body as the trunk or stem, legs as roots, arms as branches, wings as leaves, neck as flower stem, and head as the flower.
+
+
+Breath-Weapon (B*)
+  Quite a few Dragons have been famed for their ability to exhale a stream of fire at their enemies. However there are many other types of Breath-Weapon in use.
+  The following options are by no means a definitive list and are being added to constantly. However, if you don't see your particular type of breath-weapon listed, you can write it out in "double quotes". For example B"skittles" indicates that you breath skittles - presumably not the ten-pin kind!
+    Bac     Acid.
+    Bco     Cold or frost.
+    Ben     Enchantment.
+    Beg     Energy.
+    Bfl     Flame or fire.
+    Bhe     Heat.
+    Bic     Ice.
+    Bla     Lava or magma.
+    Bph     Photons or Light.
+    Bpl     Plasma.
+    Bro     Rot.
+    Bsm     Smoke.
+    Bst     Steam.
+    Bsu     Sulphur.
+    Bvg     Volcanic gasses (e.g. pyroclastics).
+    Bwa     Water.
+    Bwi     Wind.
+    Bzz     Electricity or lightning.
+    B-      No Breath-Weapon. You could also use B"none".
+  Modifiers:
+    |       Beam - For example Beg| indicates 'I am a Dalek! Exterminate! Exterminate!'
+    #       Cloud - For example Bsm# indicates 'When I breathe, ships need to use their fog-horns!'
+    /       If you have several breath-weapons, you can specify them all using / to seperate each one. For example Bfl/ac/"chocolate" indicates 'I breathe fire, acid, and chocolate ... anyone for melted acid drops?'
+  You can also put the specific type of weapon after the option in "double quotes". For example Bac"sulphuric" indicates that you breathe sulphuric acid.
+
+
+Age (A*)
+  Your age is something that can be very personal, or something to be very proud of!
+    A+++!   Ancient
+    A+++    Venerable
+    A++     Old enough to know better!
+    A+      You've been around.
+    A       Mature Adult
+    A-      Young Adult
+    A--     Still under Mom's (or Dad's) wing.
+    A---    Hatchling
+    A---!   An egg (nearly hatched)!
+    A?      I have no idea how old I am .. I lost count years ago!
+  Modifiers:
+    r       Put after the A, this indicates that one is specifying one's 'Real Life' age. For example Ar- indicates 'I am a young adult in real life.'
+    v       Put after the A, this indicates that one is specifying one's 'Virtual Life' age. For example Av+ indicates 'I've been around on the 'net!'
+    ( )     You can use both of the above in seperate tags to specify both ages, but you can also use a short-form method by just putting the r and v parts within parenthesis. For example Ar-Av+ and A(r-v+) both indicate 'I am a young adult in real life, but have been around on the 'net.'
+  For reference, Human teenagers would be A-, A would indicate someone in their 20s to mid-30s, and every + would indicate about another 15 years.
+
+
+Fruitiness (Fr*)
+  The very first on-line meeting place for dragons, and dragon-lovers, was the newsgroup alt.fan.dragons. It's still fondly considered to be home for many. Those who have been there for a while, or who have visibly enriched the newsgroup, or even those just appear to have been there for ages are (jokingly) called 'Fruits', whilst those still new to the AFD community are referred to as 'nuts'.
+  This tag indicates the level of fruitiness, or nuttiness. There are two different standards that you can use, a time based one and an attitude based one. You are free to choose whichever of the two you prefer, and are not at liberty to specify which you have chosen to use!
+  Time-based fruitiness:
+    Fr+++!   I remember when humans ruled the newsgroup!
+    Fr+++    I remember Dalvenjah posting regularly.
+    Fr++     I've been here for a couple of years or so.
+    Fr+      I've been here just over a year now.
+    Fr       Old fruits know my name and what I'm like.
+    Fr-      My name is known, but that's about it.
+    Fr--     They're still responding to my welcome post.
+    Fr---    I haven't posted yet, I'm just lurking!
+    Fr---!   I've never heard of AFD!
+  Attitude-based fruitiness:
+    Fr+++!   I'm too fruity for my hat!
+    Fr+++    I am well into the fermentation process.
+    Fr++     I have accidentally been used in food fights.
+    Fr+      Friends have spotted me in fruit salads.
+    Fr       Squeeze me! I'm ripe!
+    Fr-      I haven't fallen off the tree yet!
+    Fr--     It can be said that I am very a-peel-ing!
+    Fr---    A squirrel tried to hoard me the other day.
+    Fr---!   I'm only a sparkle in the eye of the tree!
+  Ratings common to both:
+    Fr^      Have joined, left, returned, etc.
+    Fr*      I got flamed off the newsgroup for yelling at Shim! :8)
+  If you happen to know what sort of fruit or nut you are, you can specify it after the rating in "double quotes". Apparently Baxil (the original maintainer of the code) is a Fr+++"kiwi"!
+
+
+Native-Land (N*)
+  The native territory, or natural habitat, of a creature can be quite important to them. Mant dragons are associated with different types of land, as are many creatures. However, if this tag does not apply to you (as it doesn't for many humanoids) then leave it out altogether. A good rule is that if you feel drawn to more than one of the listed land types, you probably don't have a specific native land.
+    Na      Air - 'I live in the clouds!'
+    Ne      Earth - 'I prefer to dwell underground!'
+    Nf      Fire - 'I am a child of the flame!'
+    Ni      Ice - 'I thrive in the cold polar winds and the tundra is my playground!'
+    Nj      Jungle - 'I only feel happy in the tropical rainforests of my home.'
+    Nm      Mountains - 'I am only truly happy when surrounded by tall peaks!'
+    Nn      Nature - 'I was born in the wilderness, and that's where I'm happiest!'
+    Np      Plains - 'I prefer to walk on a carpet of green!'
+    Nr      Rock - 'I have a bed of marble and a granite pillow!'
+    Ns      Space - 'The dark lifeless void is my home!'
+    Nt      Trees - 'I like swinging through the branches!'
+    Nu      Urban - 'Cities and towns hold fascination for me!'
+    Nw      Water - 'I am only truly at home in water!'
+    N^      Ethereal - 'I exist in the folds of reality!'
+    N!      Imaginary - 'I am a figment of my imagination!'
+
+
+Mating-Status (M*)
+  Sure, there are those lucky/unlucky dragons among us who are mated/tied-down in reality, but what about those who have a Special Someone on-line? Or are looking ... desperately?! Or are hiding from the lookers?!
+    M+++!     I'm mated in real life to my on-line mate's real life self as well!
+    M+++      Am I mated? Ask my hatchlings!
+    M++       Ask my significant other!
+    M+        Ask my mate-to-be!
+    M         Ask me, and I might just say yes!
+    M-        Don't ask!
+    M--       Ask my (poker/football/bridge/Trivial Pursuit) buddies!
+    M---      I'm single and very proud of it!
+    M---!     Not only am I single, but I despise the idea of mating.
+    M/        Ask me, and I'll ask your snout to meet your kidneys!
+  Modifiers:
+    <space>   Put before the plusses (doesn't apply to minuses), this indicates that one is distant from one's mate. For example M ++ indicates 'Ask my significant other, who is far from home!'
+    <number>  Put after the plusses, this indicates the number of mates one has. For example M++3 indicates 'Ask my three significant others!'
+    |         Put after the plusses (doesn't apply to minuses) or the number of mates if specified, this indicates that you are seperated (e.g. divorced). If you have more than one mate, you should put the number of seperated mates after the |, for example M+++2|1 indicates 'Am I mated? Ask my hatchlings of either of my two mates, one of which I am seperated from.'
+    *         Identical to | above except that it indicates one was bitter about it!
+    _         Identical to | above except that it indicates your mate is dead.
+    xx        Put at the end of the tag, this indicates that one is a card-carrying member of the XX Conspiracy!
+    xy        Put at the end of the tag, this indicates that one is a card-carrying member of the XY Conspiracy!
+    r         Put after the M, this indicates that one is specifying one's 'Real Life' mating status. For example Mr- indicates 'Don't ask me in real life.'
+    v         Put after the M, this indicates that one is specifying one's 'Virtual Life' mating status. For example Mv+ indicates 'Ask my mate-to-be on the 'net.'
+    ( )       You can use both of the above in seperate tags to specify both mating statuses, but you can also use a short-form method by just putting the r and v parts within parenthesis. For example Mr-Mv+ and M(r-v+) both indicate 'Don't ask me in real life, but ask my mate-to-be on the 'net.'
+
+
+Offspring (O*)
+  Many dragons who are mated (and also a few who aren't) have either guarded a clutch or two of eggs or protected some hatchlings against predators (yum yum)! This tag allows you to show how many hatchlings you have raised (or are raising).
+    O+++!       I have many of them, and none of them look like leaving yet!
+    O+++        I have several that haven't fledged yet.
+    O++         I have a couple that have not yet left home.
+    O+          I've got one still in the nest.
+    O           There's just me (and my mate, if applicable).
+    O-          I had one, but they've left home.
+    O--         I had a couple, but they're living their own lives now.
+    O---        I've had several, all successfully fledged.
+    O---!       I've had many, but they've all flown away now.
+    O+<number>  Indicates exactly how many you have and that they've not left home yet.
+    O-<number>  Indicates exactly how many you have had that have flown the coop.
+    O?          I lost track long ago. If it meeps, I feed it.
+    O~          I have a variable number, depending on who I'm fostering this month!
+    O/          If I ever heard one was my fault, I'd faint!
+  Modifiers:
+    r           Put after the O, this indicates that one is specifying one's 'Real Life' offspring. For example Or- indicates 'I had one in real life, but they left home.'
+    v           Put after the O, this indicates that one is specifying one's 'Virtual Life' offspring. For example Ov+ indicates 'I've got one on the 'net, still in the nest.'
+    ( )         You can use both of the above in seperate tags to specify both types of offspring, but you can also use a short-form method by just putting the r and v parts within parenthesis. For example Or-Ov+ and O(r-v+) both indicate 'I had one in real life, but they left home; and I've got one on the 'net, still in the nest.'
+    a           Put before any plusses or minuses, this indicates that one is specifying adopted offspring. This can be real or virtual. For example Ova+ indicates 'I've got one adopted on the 'net that is still at home.'
+
+
+Hoard-Size (H*)
+  This should need little explanation!
+    H+++!   Governments quake when they hear you're going to sell!
+    H+++    You really can't tell when someone steals an item!
+    H++     You're comfortable, but you wouldn't mind some more.
+    H+      You're not down to your last copper, but...
+    H       You've got your own lair, unfurnished.
+    H-      You and the bank own your lair.
+    H--     The lair is rented, and cramped.
+    H---    No money, no lair, at least you aren't starving!
+    H---!   Look on the bright side. At least you've got friends!
+
+
+Monetary-Philosophy ($*)
+  Different dragons, surprisingly, have very different attitudes about their money. This tag allows you to let everyone know what your attitude is.
+    $+++!   All things of value gravitate towards me. When I've got my claws on them I never let go!
+    $+++    The coinage has my likeness on it. I own the whole kingdom!
+    $++     Besides humans, I kill other dragons for their wealth.
+    $+      Investments in human businesses. I do repossessions "CHOMP" personally!
+    $       Take your hands off my hoard or I'll take your hands.
+    $-      Bought up the weapons smiths with my savings. At least there's no more dragon-proof armour or vorpal swords.
+    $--     Some thief stole most of it whilst I was out hunting hobbits!
+    $---    I'm a philanthropist. I gave it all to the poor!
+    $---!   I eschew all things of value. I don't need them! Whatever I find I give away.
+
+
+Diet (F*)
+  Most creatures eat something (or feed on something to be more exact). This simply indicates your favourite food groups and how much you tend to eat.
+    F+++!   Insatiable - 'More! More! More!'
+    F+++    Voracious - 'At least you don't have to wash up the plates now!'
+    F++     Glutton - 'I have three square meals an hour!'
+    F+      Overindulgent - 'One more of those won't hurt!'
+    F       Normal for your species - 'I have three square meals a day!'
+    F-      Dieting - 'Only a soup&ccedil;on of that if you please!'
+    F--     Efficient - 'Only soup if you please!'
+    F---    Anorexic - 'Eating is something I do every blue moon!'
+    F---!   Fasting - 'Duke Humphrey is an ideal dinner guest!'
+  Food groups:
+    Fc      Carnivourous.
+    Ff      Fluids - 'Here fishy fishy fish!'
+    Fj      Junk food addict - 'Chocolate for ME!'
+    Fm      Mineral-eater - 'I AM the Big Red Rock Eater!'
+    Fo      Omnivorous.
+    Fp      Photosynthesiser.
+    Fv      Vegetarian.
+  Modifiers:
+    /       If you eat several things, you can seperate their codes with /. For example Fv/f indicates 'I eat and drink normally, but nothing animate!'
+    ~       This indicates that you eat anything. If put after a food group it indicates you eat anything of that type. For example Fv~ indicates 'I eat anything vegetable.'
+  You can combine the above in any order, for example F---f is the same as Ff--- which indicates 'I live in a desert!'
+  The amount you tend to eat should only appear once and is not related to the food groups.
+
+
+Reality-Index (R*)
+  Your Reality tag measures how serious you are about your on-line identity in real life. This applies to all species, even humans as one can be very serious about their humanity!
+    R+++!   I AM as I describe myself, and no-one is going to persuade me otherwise. What you see is what your mind wants you to see!
+    R+++    I AM as I describe myself on-line. The human body is either an unfortunate mismatch, an illusion, or just my messenger.
+    R++     I tend to answer to my on-line name quicker than my given one. I strongly identify with this form. It would explain a lot if I wasn't really human, but I'm hedging my bets.
+    R+      It's a role, but it's a role that's part of my self-image, without which I would feel like something was missing.
+    R       I haven't given much thought to whether I am more "real" in human form or in my on-line identity. I'm just me.
+    R-      It would be nice to be as I say I am on-line, but I've got some real doubts about whether such a thing is possible.'
+    R--     This is a hobby for me. My character is just a product of my imagination, nothing more.
+    R---    I consider all of this imaginary. You R+++ people scare me. Don't you think you're taking things a bit too seriously?
+    R---!   I am role-playing. You are role-playing. If you try to correct me on this assumption, I will publicly flame you as insane.
+    R*      Don't ask, don't tell.
+    R?      The thought just hasn't crossed my mind!
+
+
+Activity-Index (Ac*)
+  Everyone spends different amounts of time on-line, and it can be nice to know just when you're likely to see someone again. This tag allows you to specify just that! Take the following descriptions as rough guides rather than hard and fast rules.
+    Ac+++!   I have a T1 connection and am never off the 'net! I even order pizza across it!
+    Ac+++    This is my home! I spend as many waking moments as possible on-line.
+    Ac++     I'm on-line every day for about eight hours or so!
+    Ac+      I'm on-line for at least two hours every day!
+    Ac       I get on every day, briefly, to check my mail and the newsgroups.
+    Ac-      I only get on occasionally during the week, but am here every weekend.
+    Ac--     I can barely manage to connect once a week.
+    Ac---    I'm lucky if I get on-line once a month!
+    Ac---!   If you see me, it must be raining frogs again!
+    Ac~      I go on-line when I fee like it. It may be hours, it may be months!
+    Ac?      I really don't know when I'll be on-line again!
+
+
+Humour-Index (Joviality) (J*)
+  So! You're about to play this really weird prank on another Dragon involving sparklies and superglue ... but you're not sure how they're going to take it? Well this tag will let you know just that!
+    J+++!   Everything is a joke. I find something to laugh at everywhere I look ... and that includes you!
+    J+++    There's very little I won't laugh about ... and very little I won't do to make you laugh!
+    J++     Laughing is just so good for you! Even when you're being serious about something it's good to slip in the odd joke!
+    J+      I appreciate humour of all kinds, but I do know when to take things seriously.
+    J       I laugh at many things, but there's a time and a place for joking.
+    J-      A joke a day keeps depression at bay ... but laughing out loud is bad for my health!
+    J--     Some things are OK to laugh at, but many things are not. I'll take whatever you say seriously unless you put those cute little smileys by it!
+    J---    I can't think of the time when I last laughed.
+    J---!   Jokes, frivolity, they're all just works of the Devil!
+  Modifiers:
+    r       Put after the H, this indicates that one is specifying one's 'Real Life' humour index. For example Jr- indicates 'I laugh occasionally in real life.'
+    v       Put after the H, this indicates that one is specifying one's 'Virtual Life' humour index. For example Jv+ indicates 'I goof around a bit on the 'net!'
+    ( )     You can use both of the above in seperate tags to specify both humour indices, but you can also use a short-form method by just putting the r and v parts within parenthesis. For example Jr-Jv+ and J(r-v+) both indicate 'I don't really find much humour in real life, but I do appreciate jokes on the 'net.'
+
+
+Social-Life (S*)
+  Some creatures live in secret, but many are open to the world about it. This element describes how open you are to the human world about your involvement with your on-line persona.
+    S+++!   I have made a determined effort to advertise the fact that I'm not a human. My close friends have got used to explaining me to strangers to save them time. I'm so militant about my true identity that even the men in white coats were impressed!
+    S+++    My friends' parents all know. I use my on-line name in front of total strangers regularly. I've received letter from people I've never met asking questions about how to deal with being non-human.
+    S++     All of my friends know. I told my parents instead of waiting for them to find out. The local cybercaf&eacute;'s manager calls me by my on-line name.
+    S+      Most of my friends know. I'd tell my parents if I thought they'd take it well. I've used my on-line name in public on occasion.
+    S       A few of my friends know. I'm glad my parents have never asked me about this. I'm rather low-key but don't dodge the subject.
+    S-      I don't want to be thought crazy in human life. If the subject came up, I'd tell my closest friends only.
+    S--     It's something that would make me rather uncomfortable to have let out. I'm open on-line but try to keep my human side untraceable, and vice versa.
+    S---    I've e-mailed only a few kindred souls I think I can trust, not telling them anything about my human life, naturally. There are great advantages to my continued silence.
+    S---!   No on knows, period. I live in fear that my intolerant neighbours, colleagues, or relatives will turn me over to the Thought Police! I post only under condition of anonymity. I'm going out on a limb even assembling my Dragon Code!
+
+
+Ubiquity (U*)
+  Many dragons have a long and noteworthy history going back hundreds, or even thousands, of years. Long before dealing with the daily grind of this human society they were shaping history! This tag shows how much you have done prior to making yourself known in the dragon community. It also shows how much of it you can remember!
+    U+++!   They call me 'The Vanisher'. Odd Beholder creatures that I only vaguely remember are still fighting holy wars over me. I've lost track of the number of planets my friends and I have personally shaped the history of. I'm not a god!
+    U+++    Not only do I remember most of my dozens (or hundreds) of past lives, but I remember a few things about you too!
+    U++     See that book over there? I wrote that in a different life!
+    U+      I can remember several past-life names, and am occasionally recognised too!
+    U       I've done some soul-searching, and got real results! This isn't my first time around.
+    U-      I'm pretty sure I've done something important, sometime, but I haven't got much of a clue as to what it was.
+    U--     When I tried to do a past-life regression, I got a '404 Not found - Access denied'. Why don't past lives come with search engines?
+    U---    Whatever it was I did, it made me end up here. I don't want to look!
+    U---!   I blocked out my memories in self-defence after the incident with the Trout farm, the Spell of Growth, and the women's locker room at the Magic Academy! Total strangers occasionally give me odd looks and move to the other side of the street as I pass.
+    U?      What's a past life?
+    U!      This is my first life!
+    U*      I've been around a bit, I'm just not saying how many times!
+    U2      My name is Bono! :8)
+
+
+Irritability (I*)
+  This tag should be considered vital - it indicates those you can have fun with and those you should be wary of!
+    I+++!   You're just not going to catch me in a good mood! Live with it or you'd better like barbeque!
+    I+++    I'd eat my mother if she looked at me wrong!
+    I++     Come too close and you're a cinder.
+    I+      Call me grumpy.
+    I       I will defend my honour, but I will only attack with reason.
+    I-      Just don't call me lizard lips and you should be fine.
+    I--     I take everything in my stride, as opposed to my jaws!
+    I---    You could stab me with a ten-foot pike, and I wouldn't blink!
+    I---!   There's nothing you can do that will make me lose my cool!
+  Modifiers:
+    #       But when I do get angry, I hope you like barbeque!
+
+
+Magical-Ability (Voodoo) (V*)
+  Magical prowess is often associated with dragons, not least in the ability to shape change or to ride the winds, but in other forms as well. This tag indicates how adept you are in the arcane arts.
+    V+++!    I have reached the pinnacle of my profession.
+    V+++     I'm reasonably adept in my field.
+    V++      I know a number of spells.
+    V+       I can perform a few cantrips with candles.
+    V        Magic is something I've never really looked into.
+    V-       Magicians worry when I'm near.
+    V--      Most magic seems to fail when I'm nearby!
+    V---     Only a few spells seem to have an effect, but that could just be psychological.
+    V---!    Magic? What's that?
+  Modifiers:
+    [field]  If you really feel it is necessary, you can specify your specialist field within square brackets. For example V++[fire] indicates 'I know a number of spells of fire magic.'
+  It may look as though this tag shows two abilities, but this is not so. If one has no magical ability, but prevents magic occurring around one then one uses the minuses. However if one has magical ability then you would tend to use that to prevent magic from occurring, thus you would use the plusses.
+
+
+Psy-Power (Q*)
+  You may not know it, but there are those who can read your mind like a magazine, or move objects just by thinking. You can indicate your strength in Psionics using this tag.
+    Q+++!      There's almost nothing I can't do if I put my mind to it.
+    Q+++       I can move mountains, and not bit by bit!
+    Q++        I know what you're thinking... did I use six psychic blasts or only five!!!
+    Q+         I can talk to the odd spirit, or move very small rocks (churches, lead, ducks, etc.).
+    Q          I'm like a book, but haven't learned to read myself yet!
+    Q-         Psychics have trouble communicating when I'm around.
+    Q--        Only my very outer thoughts are exposed.
+    Q---       Psionics just don't seem to have any affect.
+    Q---!      Not only am I immune to any Psionic effect, but I prevent them happening around me as well.
+  Modifiers:
+    [ability]  If you really feel it is necessary, you can specify your general ability within square brackets (try to abbreviate if possible). For example V++[tk] indicates 'I am fairly good at telekinesis.'
+  As for Magical-Ability, this tag looks like it represents two seperate abilities. However one will only use the minuses if one has no psionic ability (but still resists psionics), and the plusses if one has psionic ability (it is assumed you resist with your own psionics).
+
+
+Technology (Tc*)
+  The ability to use technology, or cause it to fail as soon as you touch it, can be quite important to a dragon. You can indicate your abilities using this tag.
+    Tc+++!    I write microcode in my spare time!
+    Tc+++     I can program computers using assembly language.
+    Tc++      I can program computers using high-level languages.
+    Tc+       I can program the video.
+    Tc        I haven't yet learned how to wire a plug!
+    Tc-       If a program has a bug, I'll find it!
+    Tc--      Electricity does funny things when I'm at the controls!
+    Tc---     Only the most basic mechanisms survive when I get hold of them!
+    Tc---!    All items of technology fail when I'm near!
+  Modifiers:
+    [field]   If you really feel it is necessary, you can specify your specialist field within square brackets (try to abbreviate if possible). For example Tc++[sw] indicates 'I am fairly good at writing software.'
+
+
+Huggability or Emotion (E*)
+  Whether you like being emotional amongst others, or just don't want to be touched at all can be very important - to you at least. This tag can avoid many embarrasing moments!
+    E+++!     If it is living or dead, I'll hug it (to death)!
+    E+++      If it is living, I'll hug it freely.
+    E++       I'm fairly free with my hugs, so try me!
+    E+        I'm selective, to a point, but give me a hug and I'll return it.
+    E         I don't mind hugs from any of my friends, but I draw the line there.
+    E-        I'll accept hugs from my nearest and dearest, but no-one else.
+    E--       Hugging me is something that only my mate is allowed to do!
+    E---      Don't you dare hug me! I mean it!
+    E---!     Don't even touch me ... in fact don't even think about touching me!
+  Modifiers:
+    #         When you do, expect a violent reaction!. For example E++# indicates 'I am fairly free with my hugs, and when I do expect to be bowled over!'
+
+
+Dragon-Friend (Df*)
+  If you can't be a dragon, then there's always the next best thing: being friends with them! This tags allows you to indicate how well you have blended into the dragon community.
+    Df+++!   Have you noticed? you've started growing scales!
+    Df+++    Popular with dragons - you exchange overnight visits.
+    Df++     Reasonably popular - you exchange social visits.
+    Df+      Polite acquaintance - you exchange social pleasantries.
+    Df       Tolerance - they don't eat you, you don't try to slice them!
+    Df-      Irritant - they think about having you over for lunch!
+    Df--     Maddening - they think about a quick snack ... now!
+    Df---    Infuriating - you're not good enough for a snack.
+    Df---!   Cold fury - they're going to hunt you, and find you, and...
+  This tag is for non-dragons mainly. Most regular dragons should skip this tag.
+
+
+The Revised Dragon Code (DC2) is maintained by Wyrm <wyrm@dragoncode.org>.
+This file was last updated on 28th August 2001.
