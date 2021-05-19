@@ -18,3 +18,105 @@ species = {
     "U": "undead",
     "~": "shapechanger"
 }
+
+gender = {
+    "f": "female",
+    "h": "hermaphrodite",
+    "m": "male",
+    "n": "neuter",
+    "p": "psuedo-hermaphrodite",
+    "~": "variable",
+    "?": "unknown"
+}
+
+skin = {
+    "b": "bark",
+    "c": "cellulose",
+    "e": "exoskeleton",
+    "f": "feathers",
+    "h": "hide",
+    "k": "skin",
+    "l": "leather",
+    "m": "metal",
+    "r": "rock",
+    "s": "scales",
+    "u": "fur",
+    "x": "crystal"
+}
+
+color = {
+    "ag": "silver",
+    "am": "amber",
+    "aq": "aquamarine",
+    "au": "gold",
+    "bk": "black",
+    "bl": "blue",
+    "br": "brown",
+    "bs": "brass",
+    "bz": "bronze",
+    "ch": "chromium",
+    "cu": "copper",
+    "cy": "cyan",
+    "eb": "ebony",
+    "fs": "flesh",
+    "gr": "green",
+    "gy": "grey",
+    "hg": "mercury",
+    "in": "indigo",
+    "iv": "ivory",
+    "ja": "jade",
+    "ma": "magenta",
+    "mv": "mauve",
+    "or": "orange",
+    "pi": "pink",
+    "pu": "purple",
+    "rb": "rainbow",
+    "re": "red",
+    "ta": "tan",
+    "tu": "turquoise",
+    "mb": "umber",
+    "vi": "violet",
+    "wh": "white",
+    "ye": "yellow",
+    "~": "chameleonic",
+    "?": "unknown"
+}
+
+breathweapon = {
+    "ac": "acid",
+    "co": "frost",
+    "en": "enchantment",
+    "eg": "energy",
+    "fl": "fire",
+    "he": "heat",
+    "ic": "ice",
+    "la": "lava",
+    "ph": "light",
+    "pl": "plasma",
+    "ro": "rot",
+    "sm": "smoke",
+    "st": "steam",
+    "su": "sulphur",
+    "vg": "volcanic gas",
+    "wa": "water",
+    "wi": "wind",
+    "zz": "electricity",
+    "-": "none"
+}
+
+land = {
+    "a": "air",
+    "e": "earth",
+    "f": "fire",
+    "i": "ice",
+    "j": "jungle",
+    "m": "mountains",
+    "n": "nature",
+    "p": "plains",
+    "r": "rock",
+    "s": "space",
+    "t": "trees",
+    "u": "urban",
+    "w": "water",
+    "^": "ethereal",
+    "!": "imaginary"}
