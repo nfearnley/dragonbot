@@ -6,7 +6,7 @@ StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---
 
 
 class Attribute:
-    letter = None
+    letter = ''
 
     def __init__(self):
         pass
@@ -18,6 +18,40 @@ class Attribute:
 
     def __str__(self) -> str:
         raise NotImplementedError
+
+
+class Color(Attribute):
+    def __init__(self, color: str, *, light: Optional[bool] = None, dark: Optional[bool] = None,
+                 metallic: Optional[bool] = None, transparent: Optional[bool] = None,
+                 luminescent: Optional[bool] = None, pearlescent: Optional[bool] = None,
+                 glittery: Optional[bool] = None):
+        self.color = color
+        self.light = light
+        self.dark - dark
+        self.metallic = metallic
+        self.transparent = transparent
+        self.luminescent = luminescent
+        self.pearlescent = pearlescent
+        self.glittery = glittery
+
+
+class ColorSpec(Attribute):
+    def __init__(self, bases: List[Color], stripes: Optional[List[Color]] = None, bands: Optional[List[Color]] = None,
+                 spots: Optional[List[Color]] = None, stars: Optional[List[Color]] = None, mottled: Optional[List[Color]] = None,
+                 iridesence: Optional[List[Color]] = None, mix: Optional[List[Color]] = None, plaid: Optional[List[Color]] = None,
+                 patterned: Optional[List[Color]] = None, marbled: Optional[List[Color]] = None, transition: Optional[List[Color]] = None):
+        self.bases = bases
+        self.stripes = stripes
+        self.bands = bands
+        self.spots = spots
+        self.stars = stars
+        self.mottled = mottled
+        self.iridesence = iridesence
+        self.mix = mix
+        self.plaid = plaid
+        self.patterned = patterned
+        self.marbled = marbled
+        self.transition = transition
 
 
 class Gender(Attribute):
@@ -92,6 +126,13 @@ class Weight(Attribute):
 
         if sum(a is not None for a in (self.vauge, self.specific)) != 1:
             raise TypeError("Vauge and specific lengths are mutually exculsive.")
+
+
+class Coloration(Attribute):
+    letter = "C"
+
+    def __init__(self, base: ColorSpec):
+        self.base = base
 
 
 class DragonAttributes:
