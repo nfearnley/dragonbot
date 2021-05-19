@@ -209,6 +209,7 @@ class SkinType(Attribute):
         self.wings = wings
 
 
+# Yes I'm using the American spelling.
 class Coloration(Attribute):
     letter = "C"
 
@@ -247,6 +248,9 @@ class Coloration(Attribute):
         self.wings = wings
 
 
+# TODO: Breath-Weapon has modifiers I'm not sure how to handle, skipping for now.
+
+
 class Age(Attribute):
     letter = "A"
 
@@ -254,8 +258,122 @@ class Age(Attribute):
         self.value = value
 
 
+class Fruitiness(Attribute):
+    letter = "Fr"
+
+    def __init__(self, value: Literal[StandardModifiers, '^', '*']):
+        self.value = value
+
+
+class NativeLand(Attribute):
+    letter = "N"
+
+    def __init__(self, value: str):
+        self.value = value
+
+
+# TODO: MatingStatus has modifiers I'm not sure how to handle, skipping for now.
+
+# TODO: Offspring has modifiers I'm not sure how to handle, skipping for now.
+
+
+class HoardSize(Attribute):
+    letter = "H"
+
+    def __init__(self, value: StandardModifiers):
+        self.value = value
+
+
+class MonetaryPhilosophy(Attribute):
+    letter = "$"
+
+    def __init__(self, value: StandardModifiers):
+        self.value = value
+
+
+# TODO: Diet has modifiers I'm not sure how to handle, skipping for now.
+
+
+class RealityIndex(Attribute):
+    letter = "R"
+
+    def __init__(self, value: Literal[StandardModifiers, '*', '?']):
+        self.value = value
+
+
+class ActivityIndex(Attribute):
+    letter = "Ac"
+
+    def __init__(self, value: Literal[StandardModifiers, '~', '?']):
+        self.value = value
+
+
+# TODO: HumorIndex has modifiers I'm not sure how to handle, skipping for now.
+
+
+class SocialLife(Attribute):
+    letter = "S"
+
+    def __init__(self, value: StandardModifiers):
+        self.value = value
+
+
+class Ubiquity(Attribute):
+    letter = "U"
+
+    def __init__(self, value: Literal[StandardModifiers, '?', '!', '*', '2']):
+        self.value = value
+
+
+class Irritability(Attribute):
+    letter = "I"
+
+    def __init__(self, value: StandardModifiers, aggressive: bool = False):
+        self.value = value
+        self.aggressive = aggressive
+
+
+class MagicalAbility(Attribute):
+    letter = "V"
+
+    def __init__(self, value: StandardModifiers, specialty: Optional[str] = None):
+        self.value = value
+        self.specialty = specialty
+
+
+class PsyPower(Attribute):
+    letter = "Q"
+
+    def __init__(self, value: StandardModifiers, specialty: Optional[str] = None):
+        self.value = value
+        self.specialty = specialty
+
+
+class Technology(Attribute):
+    letter = "Tc"
+
+    def __init__(self, value: StandardModifiers, specialty: Optional[str] = None):
+        self.value = value
+        self.specialty = specialty
+
+
+class Huggability(Attribute):
+    letter = "E"
+
+    def __init__(self, value: StandardModifiers, aggressive: bool = False):
+        self.value = value
+        self.aggressive = aggressive
+
+
+class DragonFriend(Attribute):
+    letter = "Df"
+
+    def __init__(self, value: StandardModifiers):
+        self.value = value
+
+
 class DragonAttributes:
-    def __init__(self,
+    def __init__(self, *,
                  gender: Optional[Gender] = None,
                  length: Optional[Length] = None,
                  width: Optional[Width] = None,
@@ -263,7 +381,21 @@ class DragonAttributes:
                  appendages: Optional[Appendages] = None,
                  skintype: Optional[SkinType] = None,
                  coloration: Optional[Coloration] = None,
-                 age: Optional[Age] = None):
+                 age: Optional[Age] = None,
+                 fruitiness: Optional[Fruitiness] = None,
+                 nativeland: Optional[NativeLand] = None,
+                 hoardsize: Optional[HoardSize] = None,
+                 monetaryphilosophy: Optional[MonetaryPhilosophy] = None,
+                 realityindex: Optional[RealityIndex] = None,
+                 activityindex: Optional[ActivityIndex] = None,
+                 sociallife: Optional[SocialLife] = None,
+                 ubiquity: Optional[Ubiquity] = None,
+                 irritability: Optional[Irritability] = None,
+                 magicalability: Optional[MagicalAbility] = None,
+                 psypower: Optional[PsyPower] = None,
+                 technology: Optional[Technology] = None,
+                 huggability: Optional[Huggability] = None,
+                 dragonfriend: Optional[DragonFriend] = None):
         self.gender = gender
         self.length = length
         self.width = width
@@ -272,6 +404,20 @@ class DragonAttributes:
         self.skintype = skintype
         self.coloration = coloration
         self.age = age
+        self.fruitiness = fruitiness
+        self.nativeland = nativeland
+        self.hoardsize = hoardsize
+        self.monetaryphilosophy = monetaryphilosophy
+        self.realityindex = realityindex
+        self.activityindex = activityindex
+        self.sociallife = sociallife
+        self.ubiquity = ubiquity
+        self.irritability = irritability
+        self.magicalability = magicalability
+        self.psypower = psypower
+        self.technology = technology
+        self.huggability = huggability
+        self.dragonfriend = dragonfriend
 
     def __str__(self) -> str:
         return "attrs"
@@ -280,7 +426,7 @@ class DragonAttributes:
 class Species:
     def __init__(self, name: str, attributes: DragonAttributes = None, subtype: str = None):
         self.name = name
-        self.subtype = subtype
+        self.subtype = subtype  # TODO: Subsubspecies? How do we handle this?
         self.attributes = attributes
 
     def __str__(self) -> str:
