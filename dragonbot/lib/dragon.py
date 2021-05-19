@@ -1,12 +1,13 @@
-from decimal import Decimal
-from typing import List, Literal, Optional, Tuple
+from abc import abstractclassmethod
+from decimal import Decimal, HAVE_THREADS
+from typing import List, Literal, Optional, Tuple, no_type_check
 
 GenderPreset = Literal['f', 'h', 'm', 'n', 'p', '?']
 StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---!']
 
 
 class Attribute:
-    letter = ''
+    letter = None
 
     def __init__(self):
         pass
@@ -20,10 +21,31 @@ class Attribute:
         raise NotImplementedError
 
 
+class Appendage(Attribute):
+    def __init__(self, name: str, number: Optional[int] = None,
+                 webbed: Optional[bool] = None, many: Optional[bool] = None, variable: Optional[bool] = None):
+        self.name = name
+        self.number = number
+        self.webbed = webbed
+        self.many = many
+        self.variable = variable
+
+        if self.number is not None and (self.many is not None or self.variable is not None):
+            raise ValueError("Specific number and vauge amount is mutually exclusive for Appendages.")
+        if self.many is None and self.variable is None and self.number is None:
+            raise ValueError("An amount of appendages must be specified.")
+        if self.many is not None and self.variable is not None:
+            raise ValueError("Many and Variable options are mutually exclusive for Appendages.")
+
+
 class Color(Attribute):
-    def __init__(self, color: str, *, light: Optional[bool] = None, dark: Optional[bool] = None,
-                 metallic: Optional[bool] = None, transparent: Optional[bool] = None,
-                 luminescent: Optional[bool] = None, pearlescent: Optional[bool] = None,
+    def __init__(self, color: str, *,
+                 light: Optional[bool] = None,
+                 dark: Optional[bool] = None,
+                 metallic: Optional[bool] = None,
+                 transparent: Optional[bool] = None,
+                 luminescent: Optional[bool] = None,
+                 pearlescent: Optional[bool] = None,
                  glittery: Optional[bool] = None):
         self.color = color
         self.light = light
@@ -36,10 +58,18 @@ class Color(Attribute):
 
 
 class ColorSpec(Attribute):
-    def __init__(self, bases: List[Color], stripes: Optional[List[Color]] = None, bands: Optional[List[Color]] = None,
-                 spots: Optional[List[Color]] = None, stars: Optional[List[Color]] = None, mottled: Optional[List[Color]] = None,
-                 iridesence: Optional[List[Color]] = None, mix: Optional[List[Color]] = None, plaid: Optional[List[Color]] = None,
-                 patterned: Optional[List[Color]] = None, marbled: Optional[List[Color]] = None, transition: Optional[List[Color]] = None):
+    def __init__(self, bases: List[Color], *,
+                 stripes: Optional[List[Color]] = None,
+                 bands: Optional[List[Color]] = None,
+                 spots: Optional[List[Color]] = None,
+                 stars: Optional[List[Color]] = None,
+                 mottled: Optional[List[Color]] = None,
+                 iridesence: Optional[List[Color]] = None,
+                 mix: Optional[List[Color]] = None,
+                 plaid: Optional[List[Color]] = None,
+                 patterned: Optional[List[Color]] = None,
+                 marbled: Optional[List[Color]] = None,
+                 transition: Optional[List[Color]] = None):
         self.bases = bases
         self.stripes = stripes
         self.bands = bands
@@ -94,8 +124,10 @@ class Length(Attribute):
     letter = "L"
 
     def __init__(self, vauge: Optional[str] = None, specific: Optional[Decimal] = None,
-                 arm: Optional[Decimal] = None, leg: Optional[Decimal] = None,
-                 neck: Optional[Decimal] = None, tail: Optional[Decimal] = None,
+                 arm: Optional[Decimal] = None,
+                 leg: Optional[Decimal] = None,
+                 neck: Optional[Decimal] = None,
+                 tail: Optional[Decimal] = None,
                  wingspan: Optional[Decimal] = None):
         self.vauge = vauge
         self.specific = specific
@@ -128,11 +160,97 @@ class Weight(Attribute):
             raise TypeError("Vauge and specific lengths are mutually exculsive.")
 
 
+class Appendages(Attribute):
+    letter = "P"
+
+    def __init__(self,
+                 arms: Optional[Appendage] = None,
+                 forelimbs: Optional[Appendage] = None,
+                 heads: Optional[Appendage] = None,
+                 crests: Optional[Appendage] = None,
+                 legs: Optional[Appendage] = None,
+                 paddles: Optional[Appendage] = None,
+                 tails: Optional[Appendage] = None,
+                 horns: Optional[Appendage] = None,
+                 wings: Optional[Appendage] = None,
+                 winglimbs: Optional[Appendage] = None):
+        self.arms = arms
+        self.forelimbs = forelimbs
+        self.heads = heads
+        self.crests = crests
+        self.legs = legs
+        self.paddles = paddles
+        self.tails = tails
+        self.horns = horns
+        self.wings = wings
+        self.winglimbs = winglimbs
+
+
+class SkinType(Attribute):
+    letter = "Sk"
+
+    def __init__(self,
+                 base: Optional[str] = None,
+                 arms: Optional[str] = None,
+                 belly: Optional[str] = None,
+                 head: Optional[str] = None,
+                 legs: Optional[str] = None,
+                 neck: Optional[str] = None,
+                 tail: Optional[str] = None,
+                 wings: Optional[str] = None):
+        self.base = base
+        self.arms = arms
+        self.belly = belly
+        self.head = head
+        self.legs = legs
+        self.neck = neck
+        self.tail = tail
+        self.wings = wings
+
+
 class Coloration(Attribute):
     letter = "C"
 
-    def __init__(self, base: ColorSpec):
+    def __init__(self,
+                 base: Optional[ColorSpec] = None,
+                 arms: Optional[ColorSpec] = None,
+                 belly: Optional[ColorSpec] = None,
+                 claws: Optional[ColorSpec] = None,
+                 eyes: Optional[ColorSpec] = None,
+                 fur: Optional[ColorSpec] = None,
+                 head: Optional[ColorSpec] = None,
+                 crest: Optional[ColorSpec] = None,
+                 legs: Optional[ColorSpec] = None,
+                 neck: Optional[ColorSpec] = None,
+                 points: Optional[ColorSpec] = None,
+                 spines: Optional[ColorSpec] = None,
+                 tail: Optional[ColorSpec] = None,
+                 aura: Optional[ColorSpec] = None,
+                 horns: Optional[ColorSpec] = None,
+                 wings: Optional[ColorSpec] = None):
         self.base = base
+        self.arms = arms
+        self.belly = belly
+        self.claws = claws
+        self.eyes = eyes
+        self.fur = fur
+        self.head = head
+        self.crest = crest
+        self.legs = legs
+        self.neck = neck
+        self.points = points
+        self.spines = spines
+        self.tail = tail
+        self.aura = aura
+        self.horns = horns
+        self.wings = wings
+
+
+class Age(Attribute):
+    letter = "A"
+
+    def __init__(self, value: Literal[StandardModifiers, '?']):
+        self.value = value
 
 
 class DragonAttributes:
@@ -140,11 +258,19 @@ class DragonAttributes:
                  gender: Optional[Gender] = None,
                  length: Optional[Length] = None,
                  width: Optional[Width] = None,
-                 weight: Optional[Weight] = None):
+                 weight: Optional[Weight] = None,
+                 appendages: Optional[Appendages] = None,
+                 skintype: Optional[SkinType] = None,
+                 coloration: Optional[Coloration] = None,
+                 age: Optional[Age] = None):
         self.gender = gender
         self.length = length
         self.width = width
         self.weight = weight
+        self.appendages = appendages
+        self.skintype = skintype
+        self.coloration = coloration
+        self.age = age
 
     def __str__(self) -> str:
         return "attrs"
