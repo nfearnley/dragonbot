@@ -1,0 +1,20 @@
+species = {
+    "D": "dragon",
+    "H": "humanoid",
+    "A": "amphibian",
+    "B": "bird",
+    "C": "crustacean",
+    "S": "dinosaur",
+    "E": "extraterrestrial",
+    "F": "fish",
+    "I": "insect",
+    "L": "legendary",
+    "M": "mammal",
+    "O": "mollusc",
+    "Y": "mythical",
+    "P": "plant",
+    "R": "reptile",
+    "Q": "spirit",
+    "U": "undead",
+    "~": "shapechanger"
+}

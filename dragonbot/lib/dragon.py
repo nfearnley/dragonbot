@@ -1,6 +1,8 @@
 from decimal import Decimal
 from typing import List, Literal, Optional, Tuple
 
+from dragonbot.lib import maps
+
 GenderPreset = Literal['f', 'h', 'm', 'n', 'p', '?']
 StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---!']
 
@@ -300,28 +302,7 @@ class DragonCode:
         if not code.startswith("DC2."):
             raise ValueError("Code does not begin with DC2.")
 
-        speciesmap = {
-            "D": "dragon",
-            "H": "humanoid",
-            "A": "amphibian",
-            "B": "bird",
-            "C": "crustacean",
-            "S": "dinosaur",
-            "E": "extraterrestrial",
-            "F": "fish",
-            "I": "insect",
-            "L": "legendary",
-            "M": "mammal",
-            "O": "mollusc",
-            "Y": "mythical",
-            "P": "plant",
-            "R": "reptile",
-            "Q": "spirit",
-            "U": "undead",
-            "~": "shapechanger"
-        }
-
-        species = speciesmap[code[4]]
+        species = maps.species[code[4]]
         return DragonCode(species = [Species(species)], attributes = DragonAttributes(), shapeshifter = False)
 
     def __str__(self) -> str:
