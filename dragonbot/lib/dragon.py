@@ -11,6 +11,10 @@ RE_VALID_MODIFIERS = r"[^A-Z\$]"
 RE_VALID_HEADER = f"Sk|Fr|Ac|Tc|Df|{RE_FIRSTLETTER}"
 RE_VALID_TAG = f"({RE_VALID_HEADER})({RE_VALID_MODIFIERS}*)"  # This does not work for the initial DC2. tag.
 
+RE_BASIC_SPECIES = r"[A-Z][a-z]*\??~?"
+RE_TAGGED_SPECIES = f"{RE_BASIC_SPECIES}{{({RE_VALID_TAG}\\s*)+}}"
+RE_DC2 = r"(?>DC2\.~?)" + ...  # TODO: AAAAAAAAAAAAA
+
 
 class Attribute:
     letter = None
