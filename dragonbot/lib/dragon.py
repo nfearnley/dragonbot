@@ -4,7 +4,7 @@ from typing import List, Literal, Optional, Tuple
 from dragonbot.lib import maps
 
 GenderPreset = Literal['f', 'h', 'm', 'n', 'p', '?']
-StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---!']
+StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---!', '?', '~']
 
 
 class Attribute:
@@ -146,7 +146,7 @@ class Length(Attribute):
 class Width(Attribute):
     letter = "W"
 
-    def __init__(self, value: Literal[StandardModifiers, "~"]):
+    def __init__(self, value: StandardModifiers):
         self.value = value
 
 
@@ -254,7 +254,7 @@ class Coloration(Attribute):
 class Age(Attribute):
     letter = "A"
 
-    def __init__(self, value: Literal[StandardModifiers, '?']):
+    def __init__(self, value: StandardModifiers):
         self.value = value
 
 
@@ -297,14 +297,14 @@ class MonetaryPhilosophy(Attribute):
 class RealityIndex(Attribute):
     letter = "R"
 
-    def __init__(self, value: Literal[StandardModifiers, '*', '?']):
+    def __init__(self, value: Literal[StandardModifiers, '*']):
         self.value = value
 
 
 class ActivityIndex(Attribute):
     letter = "Ac"
 
-    def __init__(self, value: Literal[StandardModifiers, '~', '?']):
+    def __init__(self, value: StandardModifiers):
         self.value = value
 
 
@@ -321,7 +321,7 @@ class SocialLife(Attribute):
 class Ubiquity(Attribute):
     letter = "U"
 
-    def __init__(self, value: Literal[StandardModifiers, '?', '!', '*', '2']):
+    def __init__(self, value: Literal[StandardModifiers, '!', '*', '2']):
         self.value = value
 
 
