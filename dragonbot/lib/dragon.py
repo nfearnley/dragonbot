@@ -6,6 +6,11 @@ from dragonbot.lib import maps
 GenderPreset = Literal['f', 'h', 'm', 'n', 'p', '?']
 StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---!', '?', '~']
 
+RE_FIRSTLETTER = r"[A-Z\$]"
+RE_VALID_MODIFIERS = r"[^A-Z\$]"
+RE_VALID_HEADER = f"Sk|Fr|Ac|Tc|Df|{RE_FIRSTLETTER}"
+RE_VALID_TAG = f"({RE_VALID_HEADER})({RE_VALID_MODIFIERS}*)"  # This does not work for the initial DC2. tag.
+
 
 class Attribute:
     letter = None
