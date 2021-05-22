@@ -2,7 +2,7 @@ from decimal import Decimal
 from typing import List, Literal, Optional, Tuple
 
 from dragonbot.lib import maps
-from dragonbot.lib.parser import StringParser
+from dragonbot.lib.nommer import StringNommer
 
 GenderPreset = Literal['f', 'h', 'm', 'n', 'p', '?']
 StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---!', '?', '~']
@@ -454,12 +454,12 @@ class DragonCode:
 
     @classmethod
     def parse(cls, s: str):
-        parser = StringParser(s)
-        parser.skip_spaces()
-        if parser.get(4) != "DC2.":
+        nommer = StringNommer(s)
+        nommer.skip_spaces()
+        if nommer.nom(4) != "DC2.":
             raise ValueError("Code does not begin with DC2.")
-        parser.skip_spaces()
-        species = maps.species[parser.get(1)]
+        nommer.skip_spaces()
+        species = maps.species[nommer.nom(1)]
         return DragonCode(species=[Species(species)], attributes=None)
 
     def __str__(self) -> str:

@@ -1,7 +1,7 @@
 from typing import Tuple
 
 
-class StringParser:
+class StringNommer:
     def __init__(self, data: str):
         self.index = 0
         self.data = data
@@ -10,12 +10,12 @@ class StringParser:
         while self.data[self.index:self.index + 1].isspace():
             self.index += 1
 
-    def get(self, n=1):
+    def nom(self, n=1):
         start, end = self._range(n)
         self.index = end
         return self.data[start:end]
 
-    def peek(self, n: int = 1) -> str:
+    def taste(self, n: int = 1) -> str:
         start, end = self._range(n)
         return self.data[start:end]
 
