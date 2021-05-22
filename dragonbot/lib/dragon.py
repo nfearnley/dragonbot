@@ -2,6 +2,7 @@ from decimal import Decimal
 from typing import List, Literal, Optional, Tuple
 
 from dragonbot.lib import maps
+from dragonbot.lib.parser import StringParser
 
 GenderPreset = Literal['f', 'h', 'm', 'n', 'p', '?']
 StandardModifiers = Literal['+++!', '+++', '++', '+', '', '-', '--', '---', '---!', '?', '~']
@@ -13,7 +14,6 @@ RE_VALID_TAG = f"({RE_VALID_HEADER})({RE_VALID_MODIFIERS}*)"  # This does not wo
 
 RE_BASIC_SPECIES = r"[A-Z][a-z]*\??~?"
 RE_TAGGED_SPECIES = f"{RE_BASIC_SPECIES}{{({RE_VALID_TAG}\\s*)+}}"
-RE_DC2 = r"(?>DC2\.~?)" + ...  # TODO: AAAAAAAAAAAAA
 
 
 class Attribute:
@@ -59,7 +59,7 @@ class Color(Attribute):
                  glittery: Optional[bool] = None):
         self.color = color
         self.light = light
-        self.dark - dark
+        self.dark = dark
         self.metallic = metallic
         self.transparent = transparent
         self.luminescent = luminescent
@@ -453,12 +453,14 @@ class DragonCode:
         self.attributes = attributes
 
     @classmethod
-    def parse(cls, code: str):
-        if not code.startswith("DC2."):
+    def parse(cls, s: str):
+        parser = StringParser(s)
+        parser.skip_spaces()
+        if parser.get(4) != "DC2.":
             raise ValueError("Code does not begin with DC2.")
-
-        species = maps.species[code[4]]
-        return DragonCode(species = [Species(species)], attributes = DragonAttributes(), shapeshifter = False)
+        parser.skip_spaces()
+        species = maps.species[parser.get(1)]
+        return DragonCode(species=[Species(species)], attributes=None)
 
     def __str__(self) -> str:
         return self.species[0].name

@@ -1,3 +1,18 @@
+from typing import List
+
+import pytest
+
+from dragonbot.lib.dragon import DragonCode
+
+
+def parse_lines(lines: str) -> List[str]:
+    raw_lines = lines.splitlines()
+    stripped_lines = (line.strip() for line in raw_lines)
+    filtered_lines = (line for line in stripped_lines if line)
+    return list(filtered_lines)
+
+
+codes = parse_lines(R"""
 DC2.Dd Gf L--- W- T-- Pfhltw Skk Cbz%,e~(gr/bl=hpy,ye=alrm, re=angry) Bfl A---! Fr-- Nr M--- O H---! $-- Fc/m R+ J+++! U! I---! V++['port] Q++[tp] Tc+ E++
 DC2. Dw Gm L W T Phvfwlt Sks Cbk\bl-,bgy,vwh Bfl A- M- H++ $ Fc J I--# V+++ Tc+++! E-
 DC2.D~ Gm L120f60t180w W T Phwalt Sks Cbk,ere' Bfl A+++! Fr+++ Nm M+ O H+ $ Fc~ R+++! Ac+++ J+ S++ U! I# V+++! Q Tc++ E++
@@ -16,5 +31,21 @@ DC2.Mfd~ Gm L~ W T Afhlt~ Sku~ Cwh\rb~ B- A Fr++^ N! M- O H++ $ F+/Fo R- Ac J+ S
 DC2.D~ Gm L120f60t180w W T Pawl Sks Cbk,ere' Bfl A+++! Fr++ Nm M O H+ $ Fo R+++! Ac+ J-- S++ U! I# V+++! Q Tc++
 DC2.H^Dw^As~ Gf L14f4w W+ T++ PhPwPaPtPl S"salamander type skin" Cbl+,wbl+_ Bfl#/"slime"/Bfl| A- Fr+ Nf Mr/Mv O+ H+++! $+ F++/Fj/Fo R+++! Ac+++ J+++! S+++! U I---!# V++ Q Tc+++![biological] E+++
 DC2.~Mm{L- Sku Crb'>rb'}/Df^Et{L-- Sks Crb'.rb',wrb'_>wrb'_} Gm T+ Ben A Fr N! M- H+ $- Foj+ Ac+ U* V+++![chaos] Q++[prec] Tc++[sw] Df+++
-DC.DDC?(D)f+s-h++++CjSa-$+m ++d+wl+f*Fr-LEFWe++++g-U++
 DC2.Dw~GmLWTSksCwh|bl,ebl,wblB~A-FrM-H+++!$+F~R+++Ac++J+++!S++U!I--#V+++![???]Q+++!Tc+++!
+""")
+
+bad_codes = parse_lines(R"""
+DC.DDC?(D)f+s-h++++CjSa-$+m ++d+wl+f*Fr-LEFWe++++g-U++
+""")
+
+
+@pytest.mark.parametrize("code", codes)
+def test_codes(code):
+    dc = DragonCode.parse(code)
+    assert dc is not None
+
+
+@pytest.mark.parametrize("code", bad_codes)
+def test_bad_codes(code):
+    with pytest.raises(ValueError):
+        DragonCode.parse(code)
