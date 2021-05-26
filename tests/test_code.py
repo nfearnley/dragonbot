@@ -14,6 +14,7 @@ def parse_lines(lines: str) -> List[str]:
 
 codes = parse_lines(R"""
 DC2.Dd Gf L--- W- T-- Pfhltw Skk Cbz%,e~(gr/bl=hpy,ye=alrm, re=angry) Bfl A---! Fr-- Nr M--- O H---! $-- Fc/m R+ J+++! U! I---! V++['port] Q++[tp] Tc+ E++
+DC2.H Gm L- W- T- Cfs++,ebl\gy,f"blond"++ A- N"suburb" M-- O H+ $ Fj-- Ac+++ J+++ S-- U--- I-- V Q-- Tc++ E
 DC2. Dw Gm L W T Phvfwlt Sks Cbk\bl-,bgy,vwh Bfl A- M- H++ $ Fc J I--# V+++ Tc+++! E-
 DC2.D~ Gm L120f60t180w W T Phwalt Sks Cbk,ere' Bfl A+++! Fr+++ Nm M+ O H+ $ Fc~ R+++! Ac+++ J+ S++ U! I# V+++! Q Tc++ E++
 DC2.DfGfMOA$--FjR+++S+PhfwltSksFr++"cacao"L25c45tW-TV++Cbl+,baq,evi,sag^-,w_\rbB"music"
