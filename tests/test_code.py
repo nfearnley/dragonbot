@@ -2,6 +2,8 @@ from typing import List
 
 import pytest
 
+from parsimonious import ParseError
+
 from dragonbot.lib.dragon import DragonCode
 
 
@@ -48,5 +50,5 @@ def test_codes(code):
 
 @pytest.mark.parametrize("code", bad_codes)
 def test_bad_codes(code):
-    with pytest.raises(ValueError):
+    with pytest.raises(ParseError):
         DragonCode.parse(code)
