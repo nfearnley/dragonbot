@@ -26,5 +26,31 @@ Skin-Type (Sk*)
 """
 
 grammar = """
-SkinType = 'Sk'
+SkinType    = 'Sk' SkinType_Type SkinType_BodyPartSkinType*
+SkinType_Type = SkinType_Bark / SkinType_Cellulose / SkinType_Exoskeleton / SkinType_Feathers / SkinType_Hide
+              / SkinType_Skin / SkinType_Leather / SkinType_Metal / SkinType_Rock / SkinType_Scales / SkinType_Fur
+              / SkinType_Crystals / SkinType_None
+SkinType_Bark           = 'b'
+SkinType_Cellulose      = 'c'
+SkinType_Exoskeleton    = 'e'
+SkinType_Feathers       = 'f'
+SkinType_Hide           = 'h'
+SkinType_Skin           = 'k'
+SkinType_Leather        = 'l'
+SkinType_Metal          = 'm'
+SkinType_Rock           = 'r'
+SkinType_Scales         = 's'
+SkinType_Fur            = 'u'
+SkinType_Crystals       = 'x'
+SkinType_None           = ''
+SkinType_BodyPartSkinType = SkinType_BodyPart SkinType_Type
+SkinType_BodyPart   = SkinType_BodyPart_Arms / SkinType_BodyPart_Belly / SkinType_BodyPart_Head / SkinType_BodyPart_Legs
+                    / SkinType_BodyPart_Neck / SkinType_BodyPart_Tail / SkinType_BodyPart_Wings
+SkinType_BodyPart_Arms  = ',a'
+SkinType_BodyPart_Belly = ',b'
+SkinType_BodyPart_Head  = ',h'
+SkinType_BodyPart_Legs  = ',l'
+SkinType_BodyPart_Neck  = ',n'
+SkinType_BodyPart_Tail  = ',t'
+SkinType_BodyPart_Wings = ',w'
 """
