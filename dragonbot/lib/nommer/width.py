@@ -14,5 +14,14 @@ Width (W*)
 """
 
 grammar = """
-Width = 'W'
+Width = 'W' (Width_4 / Width_3 / Width_2 / Width_1 / Width_n4 / Width_n3 / Width_n2 / Width_n1 / Width_0)
+Width_4  = '+++!'
+Width_3  = '+++'
+Width_2  = '++'
+Width_1  = '+'
+Width_0  = ''
+Width_n1 = '-'
+Width_n2 = '--'
+Width_n3 = '---'
+Width_n4 = '---!'
 """
