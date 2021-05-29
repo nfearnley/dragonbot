@@ -11,6 +11,7 @@ Weight (Tonnage) (T*)
     T--          Buoyant - 'I've been breathing helium again!'
     T---         Feather-weight - 'I get blown about by the wind.'
     T---!        Weightless - 'I'm made out of gossamer.'
+  As with most other tags, ? and ~ are valid modifiers for unknown and variable, respectively.
   Quantitative method:
     T<number>c   You weigh about that number of long hundredweight avoirdupois (1 cwt = 50.8 kilogrammes or 8 stone / 112 pounds). For example T16c indicates 'I am about 16 hundredweight.'
     T<number>g   You weigh about that number of grammes (1 gramme = 0.0353 ounces). For example T800000g indicates 'I am about 800000 grammes.'
@@ -22,7 +23,7 @@ Weight (Tonnage) (T*)
 """
 
 grammar = """
-Weight = 'T' (Weight_4 / Weight_3 / Weight_2 / Weight_1 / Weight_n4 / Weight_n3 / Weight_n2 / Weight_n1 / Weight_0)
+Weight = 'T' (Weight_4 / Weight_3 / Weight_2 / Weight_1 / Weight_n4 / Weight_n3 / Weight_n2 / Weight_n1 / Weight_unknown / Weight_variable / Weight_0)
 Weight_4  = '+++!'
 Weight_3  = '+++'
 Weight_2  = '++'
@@ -32,4 +33,6 @@ Weight_n1 = '-'
 Weight_n2 = '--'
 Weight_n3 = '---'
 Weight_n4 = '---!'
+Weight_unknown  = '?'
+Weight_variable = '~'
 """

@@ -13,6 +13,7 @@ Length (L*)
     L---!        Microscopic - 'Honey, I shrunk the dragon!'
     L~           Variable - 'I change size on a whim!'
     L^           One-Dragon-Sized - 'I am just long enough to reach the ground!'
+  As with most other tags, ? is a valid modifier for unknown.
   Quantitative method:
     L<number>i   You are about that number of inches long (1 inch = 2.54 centimetres). For example L480f indicates 'I am about 480 inches long.'
     L<number>f   You are about that number of feet long (1 foot = 30.5 centimetres). For example L40f indicates 'I am about 40 feet long.'
@@ -33,7 +34,7 @@ Length (L*)
 """
 
 grammar = """
-Length = 'L' (Length_4 / Length_3 / Length_2 / Length_1 / Length_n4 / Length_n3 / Length_n2 / Length_n1 / Length_0)
+Length = 'L' (Length_4 / Length_3 / Length_2 / Length_1 / Length_n4 / Length_n3 / Length_n2 / Length_n1 / Length_unknown / Length_variable / Length_dragon / Length_0)
 Length_4  = '+++!'
 Length_3  = '+++'
 Length_2  = '++'
@@ -43,4 +44,7 @@ Length_n1 = '-'
 Length_n2 = '--'
 Length_n3 = '---'
 Length_n4 = '---!'
+Length_unknown  = '?'
+Length_variable = '~'
+Length_dragon   = '^'
 """
