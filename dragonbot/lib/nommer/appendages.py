@@ -23,5 +23,17 @@ Appendages (P*)
 """
 
 grammar = """
-Appendages = 'P'
+Appendages = 'P' Appendages_part*
+Appendages_part       = Appendages_arms / Appendages_forelimbs / Appendages_head / Appendages_crest / Appendages_legs
+                      / Appendages_paddles / Appendages_tail / Appendages_horns / Appendages_wingarms / Appendages_wings
+Appendages_arms       = 'a'
+Appendages_forelimbs  = 'f'
+Appendages_head       = 'h'
+Appendages_crest      = 'k'
+Appendages_legs       = 'l'
+Appendages_paddles    = 'p'
+Appendages_tail       = 't'
+Appendages_horns      = 'v'
+Appendages_wings      = 'w'
+Appendages_wingarms   = "w'"
 """
