@@ -22,5 +22,14 @@ Weight (Tonnage) (T*)
 """
 
 grammar = """
-Weight = 'T'
+Weight = 'T' (Weight_4 / Weight_3 / Weight_2 / Weight_1 / Weight_n4 / Weight_n3 / Weight_n2 / Weight_n1 / Weight_0)
+Weight_4  = '+++!'
+Weight_3  = '+++'
+Weight_2  = '++'
+Weight_1  = '+'
+Weight_0  = ''
+Weight_n1 = '-'
+Weight_n2 = '--'
+Weight_n3 = '---'
+Weight_n4 = '---!'
 """
