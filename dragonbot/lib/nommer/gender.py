@@ -15,5 +15,12 @@ Gender (G*)
 """
 
 grammar = """
-Gender = 'G'
+Gender = 'G' (Gender_Female / Gender_Hermaphrodite / Gender_Male / Gender_Neuter / Gender_PseudoHermaphrodite / Gender_Variable / Gender_Unknown)
+Gender_Female = 'f'
+Gender_Hermaphrodite = 'h'
+Gender_Male = 'm'
+Gender_Neuter = 'n'
+Gender_PseudoHermaphrodite = 'p'
+Gender_Variable = '~'
+Gender_Unknown = '?'
 """
