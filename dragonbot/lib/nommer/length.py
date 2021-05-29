@@ -33,5 +33,14 @@ Length (L*)
 """
 
 grammar = """
-Length = 'L'
+Length = 'L' (Length_4 / Length_3 / Length_2 / Length_1 / Length_n4 / Length_n3 / Length_n2 / Length_n1 / Length_0)
+Length_4  = '+++!'
+Length_3  = '+++'
+Length_2  = '++'
+Length_1  = '+'
+Length_0  = ''
+Length_n1 = '-'
+Length_n2 = '--'
+Length_n3 = '---'
+Length_n4 = '---!'
 """
