@@ -31,7 +31,8 @@ DragonCode  = Header _ Species _ Attribute* Garbage
 Attribute   = (ActivityIndex / Age / Appendages / BreathWeapon / Colouration / Diet / DragonFriend / Fruitiness / Gender
             / HoardSize / Huggability / HumourIndex / Irritability / Length / MagicAbility / MatingStatus
             / MonetaryPhilosophy / NativeLand / Offspring / PsyPower / RealityIndex / SkinType / SocialLife / Technology
-            / Ubiquity / Weight / Width) _
+            / Ubiquity / Weight / Width / DummyAttr) _
+DummyAttr   = ~'[A-Z][^A-Z ]*'
 Header      = "DC2."
 """
 
