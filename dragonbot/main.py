@@ -1,3 +1,4 @@
+import sys
 import logging
 from datetime import datetime
 
@@ -14,6 +15,14 @@ initial_cogs = [
 
 
 def main():
+    args = list(sys.argv)
+    args.pop(0)
+    code = " ".join(args)
+    if code:
+        from dragonbot.lib.nommer import nom
+        print(nom(code))
+        return
+
     try:
         conf.load()
     except FileNotFoundError as e:
