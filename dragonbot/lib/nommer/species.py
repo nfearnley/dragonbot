@@ -1,4 +1,202 @@
-# |----------------------------------------- 120 character line length ------------------------------------------------|
+"""
+Species (DC2.*)
+  Your species follows directly after the initial DC2. identifier. As with all the tags it is not mandatory, however if you do decide to omit your species then you must put a space instead.
+  This tag is hierarchical in that the first symbol represents a large group, the next symbol a sub-group of that, and so on. Generally one would only need two symbols to describe your species fully.
+  If your species is not listed, you can write it out long-hand in "double quotes". If your group already exists, put that first and follow it with the species in "double quotes".
+  The following list shows all of the species available.
+
+  D        Dragons - DC2.D indicates 'I am a Dragon! I will not be bothered by humanity's petty attempts to subdivide our race.'
+    a      Amphiteres - DC2.Da
+    c      Draconids - DC2.Dc
+    d      Dragonettes - DC2.Dd
+    e      Eastern Dragons - DC2.De
+    f      Faerie Dragons - DC2.Df
+    h      Hydra - DC2.Dh
+    i      Dimar - DC2.Di
+    l      Dracolich - DC2.Dl
+    p      Pernese Dragons - DC2.Dp
+    r      Turtle Dragons - DC2.Dr
+    s      Serpents - DC2.Ds
+      s    Sea Serpents - DC2.Dss
+      f    Fire Serpents - DC2.Dsf
+    t      Tarrasques - DC2.Dt
+    u      Pseudodragons - DC2.Du
+    v      Wyverns - DC2.Dv
+    w      Western Dragons - DC2.Dw
+    y      Wyrms - DC2.Dy
+
+  H        Humanoids - DC2.H indicates 'I am a Human! Need I say any more?'
+    a      Apes - DC2.Ha
+    d      Dwarves - DC2.Hd
+    e      Elves - DC2.He
+      w    Wood Elves - DC2.Hew
+    f      Fairies - DC2.Hf
+    i      Giants - DC2.Hi
+    g      Gnomes - DC2.Hg
+    h      Hobbits - DC2.Hh
+    k      Kender - DC2.Hk
+    y      Nymphs - DC2.Hy
+    t      Troll - DC2.Ht
+    w      Wolfman - DC2.Hw
+    ?      Unknown (Anthropomorphic) - DC2.H?
+  For those who are humanoid versions of other creatures, put an H^ before the creature's code. E.g. DC2.H^Dw is a humanoid which resembles a Western Dragon.
+
+  A        Amphibians - DC2.A indicates 'I am an Amphibian, and that's all you need to know!'
+    f      Frogs - DC2.Af
+    n      Newts - DC2.An
+    s      Salamanders - DC2.As
+    t      Toads - DC2.At
+
+  B        Birds - DC2.B indicates 'You can try to categorise me, but I'm just a bird!'
+    c      Crows - DC2.Bc
+    e      Eagles - DC2.Be
+    h      Hawks - DC2.Bh
+    p      Phoenix - DC2.Bp
+    r      Ravens - DC2.Br
+
+  C        Crustaceans - DC2.C indicates 'I have a shell, but you'll need x-ray vision to see past it!'
+    c      Crabs - DC2.Cc
+    l      Lobsters - DC2.Cl
+    s      Shrimps - DC2.Cs
+
+  S        Dinosaurs - DC2.S indicates 'Look at my teeth ... does it matter what I am?!'
+    a      Allosaurs - DC2.Sa
+    c      Triceratops - DC2.Sc
+    p      Apatosaurs - DC2.Sp
+    s      Stegosaurs - DC2.Ss
+    t      Tyrannosaurs - DC2.St
+    v      Velociraptors - DC2.Sv
+
+  E        Extraterrestrial - DC2.E indicates 'I don't exist on this planet.'
+    d      Daleks - DC2.Ed
+    t      Tribbles - DC2.Et
+
+  F        Fish - DC2.F indicates 'I breath water, that should tell you all.'
+    h      Sea horses - DC2.Fh
+    f      Freshwater fish - DC2.Ff
+      g    Goldfish - DC2.Ffg
+      t    Trout - DC2.Fft
+    s      Sharks - DC2.Fs
+
+  I        Insects - DC2.I indicates 'Six legs, a thorax, head, and abdomen. I also buzz a lot!'
+    a      Ants - DC2.Ia
+    b      Beetles - DC2.Ib
+    f      Flies - DC2.If
+    l      Locusts - DC2.Il
+    m      Moths - DC2.Im
+    u      Butterflies - DC2.Iu
+
+  L        Legendary - DC2.L indicates 'My name has mythical significance ... what do you mean you've never heard of me!'
+    r      Gargoyles - DC2.Lr
+    l      Gremlins - DC2.Ll
+    g      Griffins or Gryphons - DC2.Lg
+    n      Manticores - DC2.Ln
+    m      Mermaids and Mermen - DC2.Lm
+    f      Salamanders - DC2.Lf - not the Amphibian type.
+    s      Sprites - DC2.Ls
+    t      Treants and Treefolk - DC2.Lt
+    u      Unicorns - DC2.Lu
+
+  M        Mammals - DC2.M indicates 'I give birth to live young ... and what a strain it is too!'
+    a      Bats (and other avian like mammals) - DC2.Ma
+    b      Bears - DC2.Mb
+    c      Canines (dogs) - DC2.Mc
+      d    Domestic dogs - DC2.Mcd
+      f    Foxes - DC2.Mcf
+      w    Wolves - DC2.Mcw
+    f      Felines (cats) - DC2.Mf
+      b    Black panthers - DC2.Mfb
+      c    Cheetahs - DC2.Mfc
+      d    Domestic cats - DC2.Mfd
+      p    Leopard - DC2.Mfp
+        s  Snow Leopard - DC2.Mfps
+      l    Lions - DC2.Mfl
+      x    Lynxs - DC2.Mfx
+      a    Panthers - DC2.Mfa
+      u    Pumas - DC2.Mfu
+      t    Tigers - DC2.Mft
+    h      Horses - DC2.Mh
+    m      Monkeys - DC2.Mm
+      g    Gibbons - DC2.Mmg
+    p      Polecats - DC2.Mp
+      f    Ferrets - DC2.Mpf
+      m    Mink - DC2.Mpm
+    r      Rodents - DC2.Mr
+      g    Gerbils - DC2.Mrg
+      h    Hamsters - DC2.Mrh
+      m    Mice - DC2.Mrm
+      r    Rats - DC2.Mrr
+      s    Squirrels - DC2.Mrs
+    w      Cetaceans (whales) - DC2.Mw
+      d    Dolphins - DC2.Mwd
+      k    Killer Whales - DC2.Mwk
+      p    Porpoises - DC2.Mwp
+
+  O        Molluscs - DC2.O indicates 'I keep my house with me ... I rarely need to move!'
+    c      Cuttlefish - DC2.Oc
+    l      Limpets - DC2.Ol
+    o      Octopuses - DC2.Oo
+    y      Oysters - DC2.Oy
+    s      Snails - DC2.Os
+
+  Y        Mythical - DC2.Y indicates 'My name is legendary ... what do you mean you've never heard of me!'
+    c      Centaurs - DC2.Yc
+    y      Cyclopses - DC2.Yy
+    g      Golems - DC2.Yg
+    h      Hellhounds - DC2.Yh
+    m      Minotaurs - DC2.Ym
+    p      Pegasi - DC2.Yp
+    t      Satyrs - DC2.Yt
+    s      Sphinxes or Sphynxes - DC2.Ys
+
+  P        Plants - DC2.P indicates 'I'm rooted to the spot, in more ways than one!'
+    c      Cacti - DC2.Pc
+    f      Fungii - DC2.Pf
+    t      Trees - DC2.Pt
+      a    Ash trees - DC2.Pta
+      e    Elm trees - DC2.Pte
+      o    Oak trees - DC2.Pto
+
+  R        Reptiles - DC2.R indicates 'Cold blooded and scaly, or so you might think!'
+    a      Alligators and Crocodiles - DC2.Ra
+    c      Chameleons - DC2.Rc
+    g      Geckos - DC2.Rg
+    k      Komodo Dragons - DC2.Rk
+    l      Lizards - DC2.Rl
+    n      Skinks - DC2.Rn
+      f    Fire Skinks - DC2.Rnf
+    s      Snakes - DC2.Rs
+    t      Turtles - DC2.Rt
+
+  Q        Spirits - DC2.Q indicates 'I really DO go bump in the night!'
+    a      Angels - DC2.Qa
+    d      Devils and Demons - DC2.Qd
+    g      Ghosts - DC2.Qg
+    i      Imps - DC2.Qi
+    p      Poltergeists - DC2.Qp
+    s      Spectres - DC2.Qs
+    w      Will-o-the-wisps - DC2.Qw
+
+  U        Undead - DC2.U indicates 'I died, but I haven't stopped moving yet!'
+    g      Ghouls - DC2.Ug
+    v      Vampires - DC2.Uv
+    z      Zombies - DC2.Uz
+
+  ~        Shapechangers - DC2.~ indicates 'Try to describe me and I'll change shape again!'
+           Shapechangers who change between distinct types can include those types after the ~ using a / to seperate the species. E.g. DC2.~Dw/H would indicate 'I change between a Western Dragon and Human form.'
+           It's also quite likely that your distinct forms have differring characteristics as well as similar ones. These can be given directly after the species tag using {} to contain the species specific tags. E.g. DC2.~Dw{Gf}/H{Gm}A would indicate 'I have a Western Dragon form that is female and a Human form that is male, but both are mature adults.'
+           If you have a single stable form or a preferred form, you can indicate this by simply specifying that form before the ~, for example DC2.De~ would indicate 'I am an Eastern Dragon who changes shape occasionally.' This is subtely different from DC2.~De which is 'I am a shapechanger who takes the form of an Eastern Dragon.'
+
+  Miscellaneous (modifiers):
+    ?      Unknown - DC2.? indicates 'I have no idea what I am!' One can also use ? after a Group (or sub-group) to indicate that you are uncertain as to what part of the group you are, e.g. DC2.R? would indicate 'I am a reptile, but I'm not sure which!'
+    ^      Shaped - This is used to indicate that you are mainly one form with features of another. For example DC2.H^Dw indicates 'I am Humanoid with Western Dragon features!'
+    [ ]    In another form - This is used when you are really one type of species, but on the outside you look like another. For example DC2.D[H] indicates 'I am a Dragon, trapped in Human form!'
+           As for shapechangers, you can specify different tags for each species using {} to contain the species specific tags. E.g. DC2.~Dw{Gf}[H{Gm}] would indicate 'I am a female Western Dragon trapped in a male Human body.'
+    +      Crossed - DC2.D+H indicates 'A Dragon mated with a Human ... and I'm the result!'
+           If you have a cross between species in the same group, you can leave out the second group, for example DC2.Dw+p indicates 'I am a cross between a western and a pernese dragon.'
+           You can also have more than two species crossed by adding on more plusses!
+"""
+
 grammar = """
 Species = SpeciesForm / SpeciesShape / SpeciesCross / SpeciesShapechanger / SpeciesPart
 
