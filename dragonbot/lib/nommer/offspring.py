@@ -23,5 +23,5 @@ Offspring (O*)
 """
 
 grammar = """
-offspring = 'O'
+Offspring = 'O'
 """
